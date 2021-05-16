@@ -1,0 +1,14 @@
+.container-100 {
+	width: 100%;
+
+	.div-50{
+		width: 50%;
+		p{
+			text-decoration: underline;
+		}
+	}
+	.d-2{
+		border-left: 1px solid rgb(221, 221, 221);
+		padding-left: 1rem;
+	}
+}

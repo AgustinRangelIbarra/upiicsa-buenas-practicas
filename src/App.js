@@ -1,25 +1,75 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import "./scss/app.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+import {
+	faRunning,
+	faMapMarkedAlt,
+	faBox,
+	faClipboardList,
+	faBookmark,
+} from "@fortawesome/free-solid-svg-icons";
+
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import Bienvenida from "./components/Bienvenida";
+import Glosario from "./components/Sidebar/Glosario";
+import Ayuda from "./components/Sidebar/Ayuda";
+import Creditos from "./components/Sidebar/Creditos";
+import AntesComenzar from "./components/Contenido/AntesComenzar";
+import ConoceProfesora from "./components/Contenido/ConoceProfesora";
+import Conocerte from "./components/Contenido/Conocerte";
+import Unidad_4 from "./components/Unidades/Unidad4/Unidad_4";
+import NotFound from "./components/NotFound";
+import { Unidad1Router } from "./components/Unidades/Unidad1/Router";
+import { Unidad2Router } from "./components/Unidades/Unidad2/Router";
+import { Unidad3Router } from "./components/Unidades/Unidad3/Router";
+import { Unidad4Router } from "./components/Unidades/Unidad4/Router";
+
+library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList);
+
+const App = () => {
+	return (
+		<Router>
+			<Header />
+			<div className="main_grid">
+				<Sidebar />
+
+				<Switch>
+					<div className="main_container">
+						<Route exact path="/" component={Bienvenida} />
+
+						<Route path="/unidad1" component={Unidad1Router} />
+
+						<Route path="/unidad2" component={Unidad2Router} />
+
+						<Route path="/unidad3" component={Unidad3Router} />
+
+						<Route path="/unidad4" component={Unidad4Router} />
+
+						<Route exact path="/unidad4/forma_eval" component={Unidad_4} />
+
+						<Route exact path="/glosario" component={Glosario} />
+						<Route exact path="/ayuda" component={Ayuda} />
+						<Route exact path="/creditos" component={Creditos} />
+						<Route exact path="/antes_de_comenzar" component={AntesComenzar} />
+						<Route exact path="/conoce_a_tu_profesora" component={ConoceProfesora} />
+						<Route exact path="/para_conocerte" component={Conocerte} />
+
+						<Route path="/404" component={NotFound} />
+						<Route path="*">
+							<Redirect to="/404" />
+						</Route>
+					</div>
+				</Switch>
+			</div>
+			<Footer />
+		</Router>
+	);
+};
 
 export default App;

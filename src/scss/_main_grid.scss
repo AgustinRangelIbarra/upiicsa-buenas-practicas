@@ -1,0 +1,75 @@
+@import "./variables";
+
+.main_grid {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "side_menu main_container";
+	margin: 0.5rem;
+
+	.side_menu {
+		grid-area: side_menu;
+		margin: 0 auto;
+		font-size: clamp(0.8rem, 0.8vw, 2rem);
+		width: 80%;
+
+		.side_unidades,
+		.side_contenidos {
+			border: 1px solid $guinda;
+		}
+
+		.card-header {
+			background-color: $guinda;
+			color: $white;
+		}
+
+		.list-group-item {
+			color: $negro;
+			text-decoration: none;
+
+			&:hover {
+				background-color: $white;
+				text-decoration: none;
+				transition: all 0.3s ease;
+			}
+		}
+	}
+
+	.main_container {
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		grid-area: main_container;
+		padding: 1rem;
+		margin: 0 1rem;
+	}
+}
+
+.pleca {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.pleca_de_contenido {
+		max-width: 100%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.main_grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 2fr;
+		grid-template-areas:
+			"side_menu"
+			" main_container";
+		.main_container,
+		.side_menu {
+			margin: 0.4rem;
+		}
+		.side_menu {
+			font-size: 0.9rem;
+			width: 80%;
+			margin: auto;
+		}
+	}
+}
