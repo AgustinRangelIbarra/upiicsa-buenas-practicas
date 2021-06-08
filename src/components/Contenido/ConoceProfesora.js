@@ -17,7 +17,7 @@ const ConoceProfesora = () => {
 			</div>
 			<div className="profesores mb-4">
 				<div className="container-prof">
-					<h5 className="py-2">Pilar Gomez Miranda</h5>
+					<h5 className="py-2">Pilar Gómez Miranda</h5>
 
 					<img src={ProfesoraPilar} height="300px" alt="Profesora Pilar Gomez" />
 					<h5 className="py-1">M. en C. Informática</h5>
