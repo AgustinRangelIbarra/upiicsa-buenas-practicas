@@ -40,6 +40,9 @@ const Sidebar = () => {
 					<NavLink activeclass="activeLink" className="link" to="/creditos">
 						<div className="list-group-item">Créditos</div>
 					</NavLink>
+					<NavLink activeclass="activeLink" className="link" to="/hola">
+						<div className="list-group-item">Link a Hola</div>
+					</NavLink>
 				</ul>
 			</div>
 		</div>

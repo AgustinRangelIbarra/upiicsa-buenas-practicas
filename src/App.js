@@ -25,6 +25,7 @@ import ConoceProfesora from "./components/Contenido/ConoceProfesora";
 import Conocerte from "./components/Contenido/Conocerte";
 import Unidad_4 from "./components/Unidades/Unidad4/Unidad_4";
 import NotFound from "./components/NotFound";
+import Prueba from "./components/Prueba";
 import { Unidad1Router } from "./components/Unidades/Unidad1/Router";
 import { Unidad2Router } from "./components/Unidades/Unidad2/Router";
 import { Unidad3Router } from "./components/Unidades/Unidad3/Router";
@@ -59,6 +60,8 @@ const App = () => {
 						<Route exact path="/antes_de_comenzar" component={AntesComenzar} />
 						<Route exact path="/conoce_a_tu_profesora" component={ConoceProfesora} />
 						<Route exact path="/para_conocerte" component={Conocerte} />
+
+						<Route exact path="/hola" component={Prueba} />
 
 						<Route path="/404" component={NotFound} />
 						<Route path="*">

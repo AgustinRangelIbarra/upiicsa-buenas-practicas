@@ -6,6 +6,7 @@ const FormaDeEvaluacion = () => {
 			<div className="pleca">
 				<img src={PlecaEval} alt="Unidad 1" className="pleca_de_contenido" />
 			</div>
+			<p>profesora hola</p>
 		</div>
 	);
 }
