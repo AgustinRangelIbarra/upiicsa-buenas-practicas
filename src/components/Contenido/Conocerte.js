@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import ParaConocerte from "../../assets/plecas/ParaConocerte.jpg";
 
 const Conocerte = () => {
@@ -12,11 +14,10 @@ const Conocerte = () => {
 					<div className="div-50 d-1">
 						<h3>Evaluación Diagnóstica</h3>
 						<p>
-							
-							Es importante identificar los conocimientos previos con los que cuentas.{" "}
-							<br />
+							Es importante identificar los conocimientos previos con los que cuentas. <br />
 							Por lo tanto, te pedimos que contestes la evaluación diagnóstica con honestidad
-							y seriedad, ya que esto apoyará al profesor en la orientación de tu desempeño. <br/>
+							y seriedad, ya que esto apoyará al profesor en la orientación de tu desempeño.{" "}
+							<br />
 							Por lo que te invitamos a solucionar el siguiente examen.
 						</p>
 						<a target="_blank" href="https://forms.gle/nLA9JTBeeauHfN1o9">
@@ -27,13 +28,26 @@ const Conocerte = () => {
 						<h3>Tus Expectativas</h3>
 						Es importante identifica qué es lo que esperas del curso. <br />
 						Así mismo identificar las actividades que estás dispusto a hacer para lograr tus
-						expectativas. <br/> Por lo que los invitamos a contestar las siguientes preguntas.
+						expectativas. <br /> Por lo que los invitamos a contestar las siguientes
+						preguntas.
 						<br /> <br />
 						<a target="_blank" href="https://forms.gle/6EZWLPvc18mxvMfp9">
 							<p>Solucionar encuesta</p>
 						</a>
 					</div>
 				</div>
+			</div>
+			<div className="flex-arrows">
+				<Link to="/conoce_a_tu_profesora">
+					<div className=" homeSVG">
+						<FontAwesomeIcon icon="arrow-left" />
+					</div>
+				</Link>
+				<Link to="/antes_de_comenzar">
+					<div className=" homeSVG">
+						<FontAwesomeIcon icon="arrow-right" />
+					</div>
+				</Link>
 			</div>
 		</div>
 	);

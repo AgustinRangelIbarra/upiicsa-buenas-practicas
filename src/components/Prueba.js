@@ -1,6 +1,6 @@
 const Prueba = () => {
 	return (
-		<div>HOLA asd</div>
+		<div className="mt-5">Premade Component</div>
 	)
 }
 

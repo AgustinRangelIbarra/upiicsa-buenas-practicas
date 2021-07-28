@@ -1,9 +1,9 @@
 @import "./variables";
 @import "./main_grid";
-@import './bienvenida';
-@import './menu';
-@import './conoceProfesor';
-@import './conocerte';
+@import "./bienvenida";
+@import "./menu";
+@import "./conoceProfesor";
+@import "./conocerte";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
@@ -15,7 +15,7 @@ body {
 	color: $negro;
 }
 
-.activeLink{
+.activeLink {
 	background-color: $guinda;
 	color: $white;
 }
@@ -35,6 +35,23 @@ header {
 	}
 }
 
+.flex-arrows {
+	position: initial !important;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.homeSVG {
+	// position: absolute;
+	color: $guinda !important;
+	font-size: 2rem;
+	&:hover {
+		transition: all 0.5s ease;
+		color: $guinda_hover;
+	}
+}
+
 footer {
 	background-color: $guinda;
 	text-align: center;
@@ -42,7 +59,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-	header{
+	header {
 		margin-bottom: 1.5rem;
 	}
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Redirect, Route, Switch } from "react-router-dom";
 
 import "./scss/app.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,6 +11,10 @@ import {
 	faBox,
 	faClipboardList,
 	faBookmark,
+	faArrowRight,
+	faArrowLeft,
+	faHome,
+	faBook
 } from "@fortawesome/free-solid-svg-icons";
 
 import Footer from "./components/Footer";
@@ -23,15 +27,15 @@ import Creditos from "./components/Sidebar/Creditos";
 import AntesComenzar from "./components/Contenido/AntesComenzar";
 import ConoceProfesora from "./components/Contenido/ConoceProfesora";
 import Conocerte from "./components/Contenido/Conocerte";
-import Unidad_4 from "./components/Unidades/Unidad4/Unidad_4";
 import NotFound from "./components/NotFound";
 import Prueba from "./components/Prueba";
 import { Unidad1Router } from "./components/Unidades/Unidad1/Router";
 import { Unidad2Router } from "./components/Unidades/Unidad2/Router";
 import { Unidad3Router } from "./components/Unidades/Unidad3/Router";
 import { Unidad4Router } from "./components/Unidades/Unidad4/Router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList);
+library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList, faArrowRight, faArrowLeft, faHome, faBook);
 
 const App = () => {
 	return (
@@ -42,6 +46,11 @@ const App = () => {
 
 				<Switch>
 					<div className="main_container">
+						<Link to="/">
+							<span className="homeSVG">
+								<FontAwesomeIcon icon="home" />
+							</span>
+						</Link>
 						<Route exact path="/" component={Bienvenida} />
 
 						<Route path="/unidad1" component={Unidad1Router} />
@@ -61,12 +70,12 @@ const App = () => {
 						<Route exact path="/conoce_a_tu_profesora" component={ConoceProfesora} />
 						<Route exact path="/para_conocerte" component={Conocerte} />
 
-						<Route exact path="/hola" component={Prueba} />
+						<Route exact path="/prueba" component={Prueba} />
 
 						<Route path="/404" component={NotFound} />
-						<Route path="*">
+						{/* <Route path="/">
 							<Redirect to="/404" />
-						</Route>
+						</Route> */}
 					</div>
 				</Switch>
 			</div>
