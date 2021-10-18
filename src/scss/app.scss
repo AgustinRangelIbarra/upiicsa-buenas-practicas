@@ -13,6 +13,9 @@ body {
 	padding: 0;
 	background-color: $white;
 	color: $negro;
+	a {
+		text-decoration: none;
+	}
 }
 
 .activeLink {
@@ -21,17 +24,23 @@ body {
 }
 
 header {
+	display: flex !important;
 	align-items: center;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center !important;
 	margin-bottom: 3rem;
 
+	a {
+		text-align: center;
+	}
+
 	.pleca_principal {
-		width: 100%;
+		width: 45%;
 		box-shadow: -9px 10px 5px -4px rgba(0, 0, 0, 0.57);
 		-webkit-box-shadow: -9px 10px 5px -4px rgba(0, 0, 0, 0.57);
 		-moz-box-shadow: -9px 10px 5px -4px rgba(0, 0, 0, 0.57);
 		margin-top: 1rem;
+		align-self: center !important;
 	}
 }
 
@@ -52,6 +61,10 @@ header {
 	}
 }
 
+.blue_text {
+	color: $blue;
+}
+
 footer {
 	background-color: $guinda;
 	text-align: center;
@@ -61,5 +74,8 @@ footer {
 @media only screen and (max-width: 600px) {
 	header {
 		margin-bottom: 1.5rem;
+		.pleca_principal {
+			width: 80%;
+		}
 	}
 }

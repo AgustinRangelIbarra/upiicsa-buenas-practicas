@@ -29,7 +29,8 @@
 
 			&:hover {
 				background-color: $white;
-				text-decoration: none;
+				color: $guinda_hover;
+				text-decoration: underline;
 				transition: all 0.3s ease;
 			}
 		}

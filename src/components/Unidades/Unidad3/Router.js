@@ -1,5 +1,5 @@
 import { Switch, Route, Redirect, Link } from "react-router-dom";
-import PlecaUnidad3 from "../../../assets/plecas/BPS_U3.jpg";
+import PlecaUnidad3 from "../../../assets/plecas/Pleca_MPS_U3_2.jpg";
 import FormaDeEvaluacion from "./FormaDeEvaluacion";
 import FuentesConsulta from "./FuentesConsulta";
 import IntroCompetencias from "./IntroCompetencias";

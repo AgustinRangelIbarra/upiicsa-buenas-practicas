@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link, Redirect, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
 import "./scss/app.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,7 +14,7 @@ import {
 	faArrowRight,
 	faArrowLeft,
 	faHome,
-	faBook
+	faBook, faChalkboardTeacher
 } from "@fortawesome/free-solid-svg-icons";
 
 import Footer from "./components/Footer";
@@ -35,7 +35,7 @@ import { Unidad3Router } from "./components/Unidades/Unidad3/Router";
 import { Unidad4Router } from "./components/Unidades/Unidad4/Router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList, faArrowRight, faArrowLeft, faHome, faBook);
+library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList, faArrowRight, faArrowLeft, faHome, faBook, faChalkboardTeacher);
 
 const App = () => {
 	return (

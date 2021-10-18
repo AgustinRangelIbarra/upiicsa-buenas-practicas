@@ -8,7 +8,7 @@ const Sidebar = () => {
 				<Link to="/">
 					<div className="card-header">
 						<FontAwesomeIcon icon="arrow-right" />
-						<span className="p-4">Ir al Encuadre</span>
+						<span className="p-4">Ir a Antes de Comenzar</span>
 					</div>
 				</Link>
 				<hr />
@@ -38,13 +38,13 @@ const Sidebar = () => {
 					</div>
 				</div>
 				<div className="side_contenidos">
-					<div className="card-header">CONTENIDO</div>
+					<div className="card-header">SABER MAS</div>
 					<ul className="list-group list-group-flush">
 						<NavLink activeclass="activeLink" to="/glosario">
 							<div className="list-group-item">Glosario</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" to="/ayuda">
-							<div className="list-group-item">Ayuda</div>
+							<div className="list-group-item">Guía del estudiante</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" className="link" to="/creditos">
 							<div className="list-group-item">Créditos</div>

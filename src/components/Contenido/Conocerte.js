@@ -15,12 +15,11 @@ const Conocerte = () => {
 						<h3>Evaluación Diagnóstica</h3>
 						<p>
 							Es importante identificar los conocimientos previos con los que cuentas. <br />
-							Por lo tanto, te pedimos que contestes la evaluación diagnóstica con honestidad
-							y seriedad, ya que esto apoyará al profesor en la orientación de tu desempeño.{" "}
-							<br />
+							Por lo tanto, te pedimos que contestes la evaluación diagnóstica con honestidad y
+							seriedad, ya que esto apoyará al profesor en la orientación de tu desempeño. <br />
 							Por lo que te invitamos a solucionar el siguiente examen.
 						</p>
-						<a target="_blank" href="https://forms.gle/nLA9JTBeeauHfN1o9">
+						<a target="_blank" rel="noreferrer" href="https://forms.gle/nLA9JTBeeauHfN1o9">
 							<p>Solucionar evaluación diagnóstica</p>
 						</a>
 					</div>
@@ -28,10 +27,9 @@ const Conocerte = () => {
 						<h3>Tus Expectativas</h3>
 						Es importante identifica qué es lo que esperas del curso. <br />
 						Así mismo identificar las actividades que estás dispusto a hacer para lograr tus
-						expectativas. <br /> Por lo que los invitamos a contestar las siguientes
-						preguntas.
+						expectativas. <br /> Por lo que los invitamos a contestar las siguientes preguntas.
 						<br /> <br />
-						<a target="_blank" href="https://forms.gle/6EZWLPvc18mxvMfp9">
+						<a target="_blank" rel="noreferrer" href="https://forms.gle/6EZWLPvc18mxvMfp9">
 							<p>Solucionar encuesta</p>
 						</a>
 					</div>
