@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import AntesDeComenzar from "../../assets/plecas/AntesComenzar3.jpg";
+import AntesDeComenzar from "../../assets/plecas/Pleca_BP_NecesitasS.jpg";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import FormaTrabajo from "./AntesComenzar/FormaTrabajo";
@@ -17,16 +17,27 @@ const AntesComenzar = () => {
 				<a href="">Metodología de estudio va a estar basasda en estudio de casos</a>
 			</div> */}
 
-			<h4 className="blue_text my-4">Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.</h4>
+			<h4 className="blue_text my-4">
+				Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
+			</h4>
 
 			<Tabs defaultActiveKey="metodologia" id="uncontrolled-tab-example" className="mb-3">
 				<Tab eventKey="metodologia" title="Metodología">
-					<h3 className="blue_text">¿Qué metodología educativa se utiliza en el curso?</h3>
+					<h3 className="blue_text mb-4">¿Qué metodología educativa se utiliza en el curso?</h3>
 					<p>
-						El modelo pedagógico utilizado es: el aula invertida, la cual permite optimizar el
-						tiempo en clase poniendo atención en la participación del estudiante y atendiendo la
-						mayor parte del tiempo las necesidades educativas el estudio de caso.
+						El modelo pedagógico utilizado es: el modelo híbrido apoyado de la metodología de aula
+						invertida.
 					</p>
+					<p>
+						El método educativo híbrido es la combinación de la educación presencial y a distancia.
+					</p>
+					<p>
+						Al combinar los entornos educativos y la orientación de aula invertida se fomenta el
+						aprendizaje activo.
+					</p>
+					<div>
+						<h4 className="text-center">¡Ahora bien!</h4>
+					</div>
 					<iframe
 						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=14"
 						width="693"
@@ -70,7 +81,8 @@ const AntesComenzar = () => {
 				<Tab eventKey="forma_de_trabajo" title="Forma de Trabajo">
 					<FormaTrabajo />
 				</Tab>
-				<Tab eventKey="contenido" title="Contenido">
+				<Tab eventKey="contenido" title="Contenido del curso">
+					<p>Da click y navega por el mapa</p>
 					<iframe
 						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6"
 						width="776"
@@ -79,9 +91,28 @@ const AntesComenzar = () => {
 						allowfullscreen="allowfullscreen"
 						title="Mapa Buenas prácticas de software"
 					></iframe>
-					<p>Cualquier duda plantéala en la sesión en línea.</p>
+					{/* <p>Cualquier duda plantéala en la sesión en línea.</p> */}
+				</Tab>
+				<Tab eventKey="forma_de_evaluacion" title="Forma de evaluación">
+					<p>
+						Durante el curso se evaluará: <br />
+						<ul>
+							<li>Participación en el aula presencial o en línea.</li>
+							<li>Evidencias de las actividades de aprendizaje individuales y colaborativas.</li>
+							<li>
+								La solución de un estudio de caso por unidad temática, a partir de la unidad dos.
+							</li>
+						</ul>
+						Revisa la sección Forma de evaluación en cada unidad temática para que conozcas a
+						detalle con qué y cómo serás evaluado. Cualquier duda exponla en el aula.
+					</p>
 				</Tab>
 			</Tabs>
+
+			<br />
+			<p className="text-secondary text-center">
+				Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
+			</p>
 
 			<script
 				src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
@@ -93,7 +124,7 @@ const AntesComenzar = () => {
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>
 				</Link>
-				<Link to="/">
+				<Link to="/upiicsa-buenas-practicas">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-right" />
 					</div>

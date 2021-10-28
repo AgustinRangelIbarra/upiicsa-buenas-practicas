@@ -5,10 +5,10 @@ const Sidebar = () => {
 	return (
 		<div>
 			<div className="side_menu">
-				<Link to="/">
+				<Link to="/upiicsa-buenas-practicas">
 					<div className="card-header">
 						<FontAwesomeIcon icon="arrow-right" />
-						<span className="p-4">Ir a Antes de Comenzar</span>
+						<span className="p-4">Antes de Comenzar</span>
 					</div>
 				</Link>
 				<hr />
@@ -16,9 +16,7 @@ const Sidebar = () => {
 					<div className="card-header">UNIDADES</div>
 					<div className="list-group list-group-flush">
 						<NavLink activeclass="activeLink" to="/unidad1">
-							<div className="list-group-item">
-								Unidad 1. Buenas Prácticas y Marcos de Trabajo
-							</div>
+							<div className="list-group-item">Unidad 1. Buenas Prácticas y Marcos de Trabajo</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" to="/unidad2">
 							<div className="list-group-item">

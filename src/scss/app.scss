@@ -16,6 +16,7 @@ body {
 	a {
 		text-decoration: none;
 	}
+	height: 100%;
 }
 
 .activeLink {
@@ -66,9 +67,12 @@ header {
 }
 
 footer {
+	width: 100%;
 	background-color: $guinda;
 	text-align: center;
 	margin-top: 4rem;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 @media only screen and (max-width: 600px) {

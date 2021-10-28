@@ -19,7 +19,7 @@ const FuentesConsulta = () => {
 						<FontAwesomeIcon icon="book" />
 					</div>
 				</Link>
-				<Link to="/">
+				<Link to="/upiicsa-buenas-practicas">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-right" />
 					</div>

@@ -8,6 +8,13 @@ const MapaActividades = () => {
 			<div className="pleca">
 				<img src={PlecaMapaActividaes} alt="Unidad 1" className="pleca_de_contenido" />
 			</div>
+			<div className="container">
+				<p>Sesión 2 “Revisión de la agenda”</p>
+				<h3 className="blue_text text-center my-4">
+					¿Qué actividades de aprendizaje voy a realizar?
+				</h3>
+				<p>Revisa la agenda, cualquier duda plantéala en la sesión. </p>
+			</div>
 			<div className="flex-arrows">
 				<Link to="/unidad1/forma_evaluacion">
 					<div className=" homeSVG">

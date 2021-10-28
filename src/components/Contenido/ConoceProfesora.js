@@ -14,8 +14,19 @@ const ConoceProfesora = () => {
 				<img src={PlecaConoceProfesora} alt="Unidad 1" className="pleca_de_contenido" />
 			</div>
 			<div className="contaier-sm d-flex flex-column align-items-center">
-				{/* <h3>¿Quieres Conocer a tus Profesores? </h3> */}
-				<h4>¡Adelante podrás ver su ficha curricluar!</h4> <br />
+				<h4>¿Quieres conocer a tus profesores? </h4>
+				<h5>¡Adelante, da click en ver ficha!</h5> <br />
+				<br />
+				<h5>
+					Al concluir contesta la encuesta dendo click{" "}
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSey4dUnf3e5rNUkGr0tpet5TV3U5KCAl0s6OE3F6oWR-D2JBQ/viewform?usp=sf_link  "
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						aquí
+					</a>{" "}
+				</h5>
 			</div>
 			<div className="profesores mb-4">
 				<div className="container-prof">
@@ -77,8 +88,12 @@ const ConoceProfesora = () => {
 					></iframe>
 				</div>
 			)}
+			<br />
+			<p className="text-secondary text-center">
+				Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
+			</p>
 			<div className="flex-arrows">
-				<Link to="/">
+				<Link to="/upiicsa-buenas-practicas">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>

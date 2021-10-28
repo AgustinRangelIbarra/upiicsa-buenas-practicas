@@ -4,12 +4,12 @@ import video_bienvenida from "../assets/videos/BuenasPracticas.mp4";
 const Bienvenida = () => {
 	return (
 		<div className="mt-5">
-			<h4 style={{ textAlign: "left" }}>Encuadre</h4> <br />
+			<h5 className="text-center">Video de bienvenida</h5> <br />
 			<div className="d-flex flex-column align-items-center">
 				<video controls className="video_bienvenida">
 					<source src={video_bienvenida} type="video/mp4" />
 					Your browser does not support HTML5 video.
-				</video>{" "}
+				</video>
 				<br />
 				<p>Al concluir el video, contesta la encuesta y sigue revisando el curso</p>
 				<p>

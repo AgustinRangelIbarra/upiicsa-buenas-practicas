@@ -46,12 +46,11 @@ const App = () => {
 
 				<Switch>
 					<div className="main_container">
-						<Link to="/">
+						<Link to="/upiicsa-buenas-practicas">
 							<span className="homeSVG">
 								<FontAwesomeIcon icon="home" />
 							</span>
 						</Link>
-						<Route exact path="/" component={Bienvenida} />
 
 						<Route path="/unidad1" component={Unidad1Router} />
 
@@ -60,6 +59,7 @@ const App = () => {
 						<Route path="/unidad3" component={Unidad3Router} />
 
 						<Route path="/unidad4" component={Unidad4Router} />
+						<Route exact path="/upiicsa-buenas-practicas" component={Bienvenida} />
 
 						{/* <Route exact path="/unidad4/forma_eval" component={Unidad_4} /> */}
 

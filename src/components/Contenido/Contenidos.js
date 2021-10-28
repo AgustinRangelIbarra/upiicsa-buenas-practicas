@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import ConoceProfesora from '../../assets/plecas/ConoceProfesora3.jpg';
 import ParaConocerte from '../../assets/plecas/ParaConocerte.jpg';
-import AntesComenzar from '../../assets/plecas/AntesComenzar3.jpg';
+import AntesComenzar from "../../assets/plecas/Pleca_BP_NecesitasS.jpg";
 
 const Contenidos = () => {
 	return (
