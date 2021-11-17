@@ -20,7 +20,7 @@ const FuentesConsulta = () => {
 				</video>
 			</div>
 			<div className="flex-arrows">
-				<Link to="/unidad1/mapa_actividades">
+				<Link to="/unidad1/sesion">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>

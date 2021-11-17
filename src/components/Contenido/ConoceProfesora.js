@@ -32,7 +32,7 @@ const ConoceProfesora = () => {
 				<div className="container-prof">
 					<h5 className="py-2">Pilar Gómez Miranda</h5>
 
-					<img src={ProfesoraPilar} height="300px" alt="Profesora Pilar Gomez" />
+					{/* <img src={ProfesoraPilar} height="300px" alt="Profesora Pilar Gomez" /> */}
 					<h5 className="py-1">M. en C. Informática</h5>
 
 					{/* <p className="descripcionProf">
@@ -48,7 +48,7 @@ const ConoceProfesora = () => {
 				<div className="container-prof">
 					<h5 className="py-2">Emmanuel González Rogel​</h5>
 
-					<img src={ProfesorEmmanuel} height="300px" alt="Profesora Pilar Gomez" />
+					{/* <img src={ProfesorEmmanuel} height="300px" alt="Profesora Pilar Gomez" /> */}
 					<h5 className="py-1">M. en C. Informática</h5>
 
 					{/* <p className="descripcionProf">
@@ -89,9 +89,9 @@ const ConoceProfesora = () => {
 				</div>
 			)}
 			<br />
-			<p className="text-secondary text-center">
+			{/* <p className="text-secondary text-center">
 				Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
-			</p>
+			</p> */}
 			<div className="flex-arrows">
 				<Link to="/upiicsa-buenas-practicas">
 					<div className=" homeSVG">

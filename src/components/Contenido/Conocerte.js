@@ -36,9 +36,9 @@ const Conocerte = () => {
 					</div>
 				</div>
 				<br />
-				<p className="text-secondary text-center">
+				{/* <p className="text-secondary text-center">
 					Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
-				</p>
+				</p> */}
 			</div>
 			<div className="flex-arrows">
 				<Link to="/conoce_a_tu_profesora">

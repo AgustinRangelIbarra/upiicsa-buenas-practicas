@@ -14,7 +14,7 @@ import {
 	faArrowRight,
 	faArrowLeft,
 	faHome,
-	faBook, faChalkboardTeacher
+	faBook, faChalkboardTeacher, faCalendar
 } from "@fortawesome/free-solid-svg-icons";
 
 import Footer from "./components/Footer";
@@ -35,7 +35,7 @@ import { Unidad3Router } from "./components/Unidades/Unidad3/Router";
 import { Unidad4Router } from "./components/Unidades/Unidad4/Router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList, faArrowRight, faArrowLeft, faHome, faBook, faChalkboardTeacher);
+library.add(faRunning, faMapMarkedAlt, faBox, faBookmark, faClipboardList, faArrowRight, faArrowLeft, faHome, faBook, faChalkboardTeacher, faCalendar);
 
 const App = () => {
 	return (

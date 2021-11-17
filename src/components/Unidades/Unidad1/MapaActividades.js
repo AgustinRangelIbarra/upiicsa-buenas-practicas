@@ -13,7 +13,13 @@ const MapaActividades = () => {
 				<h3 className="blue_text text-center my-4">
 					¿Qué actividades de aprendizaje voy a realizar?
 				</h3>
-				<p>Revisa la agenda, cualquier duda plantéala en la sesión. </p>
+				<p>
+					Revisa la agenda y accesa a cada una de las sesiones, cualquier duda plantéala en la
+					sesión.
+				</p>
+				<p className="blue_text text-center">
+					<FontAwesomeIcon className="big-icon" icon="calendar" />
+				</p>
 			</div>
 			<div className="flex-arrows">
 				<Link to="/unidad1/forma_evaluacion">
@@ -26,7 +32,7 @@ const MapaActividades = () => {
 						<FontAwesomeIcon icon="book" />
 					</div>
 				</Link>
-				<Link to="/unidad1/fuentes_consulta">
+				<Link to="/unidad1/sesion">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-right" />
 					</div>

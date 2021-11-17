@@ -64,9 +64,10 @@ const FormaTrabajo = () => {
 				</p>
 			</div>
 			<p>
-				Las dudas las podrás plantear en las sesiones en línea, en los canales, en la sección de
-				publicaciones general, mediante la mensajería interna de la plataforma Teams y por el correo
-				electrónico del profesor.
+				Plantea tus dudas en las sesiones en línea o presenciales, mediante los siguientes medios de
+				comunicación: Los canales, en la sección de publicaciones general, mediante la mensajería
+				interna de la plataforma Teams, por el correo electrónico del profesor, o directamente al
+				profesor en el salón de clases.
 			</p>
 		</div>
 	);

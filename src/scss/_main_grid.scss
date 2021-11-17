@@ -56,6 +56,14 @@
 	}
 }
 
+.big-icon {
+	width: 130px !important;
+	height: 130px !important;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	.main_grid {
 		grid-template-columns: 1fr;

@@ -78,7 +78,7 @@ const Menu = () => {
 								<FontAwesomeIcon icon="chalkboard-teacher" />
 							</span>
 						</div>
-						<p>Sesión</p>
+						<p>Sesiones</p>
 					</Link>
 				</div>
 
