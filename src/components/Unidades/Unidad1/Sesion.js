@@ -18,30 +18,50 @@ const Sesion = () => {
 					<h5 className="blue_text text-center">{sesion.tema}</h5>
 
 					<Accordion defaultActiveKey="0">
-						{sesion.extra_clase && (
-							<Accordion.Item eventKey="0">
-								<Accordion.Header>Sesión extra clase</Accordion.Header>
+						<Accordion.Item eventKey="0">
+							<Accordion.Header>Actividad de Aprendizaje: Extra clase</Accordion.Header>
+							{sesion.extra_clase && (
 								<Accordion.Body>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-									pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-									officia deserunt mollit anim id est laborum.
+									{sesion.extra_clase.actividad_aprendizaje1.sesion_linea.temas.map(
+										(tema, index) => (
+											<>
+												<h5>
+													{index + 1}. {tema.titulo}
+												</h5>
+												{tema.subtemas && (
+													<h6>
+														{tema.subtemas.map((subtema, index) => (
+															<div>
+																<h6 className="ml-4">
+																	{index}.1.{index + 1} {subtema.titulo}
+																</h6>
+															</div>
+														))}
+													</h6>
+												)}
+											</>
+										)
+									)}
+								</Accordion.Body>
+							)}
+						</Accordion.Item>
+						{sesion.extra_clase.actividad_aprendizaje1 && (
+							<Accordion.Item eventKey="1">
+								<Accordion.Header>Sesión en el aula</Accordion.Header>
+								<Accordion.Body></Accordion.Body>
+							</Accordion.Item>
+						)}
+						{sesion.actividad_colaborativo.actividad_aprendizaje2 && (
+							<Accordion.Item eventKey="2">
+								<Accordion.Header>Actividad de aprendizaje colaborativo</Accordion.Header>
+								<Accordion.Body>
+									<h6>{sesion.actividad_colaborativo.actividad_aprendizaje2.titulo}</h6>
+									{sesion.actividad_colaborativo.actividad_aprendizaje2.parrafos.map((parrafo) => (
+										<p>{parrafo}</p>
+									))}
 								</Accordion.Body>
 							</Accordion.Item>
 						)}
-						<Accordion.Item eventKey="1">
-							<Accordion.Header>Accordion Item #2</Accordion.Header>
-							<Accordion.Body>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-								irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-								pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-								deserunt mollit anim id est laborum.
-							</Accordion.Body>
-						</Accordion.Item>
 					</Accordion>
 				</div>
 			))}

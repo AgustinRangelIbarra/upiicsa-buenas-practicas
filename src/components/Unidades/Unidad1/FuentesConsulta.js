@@ -11,7 +11,8 @@ const FuentesConsulta = () => {
 			</div>
 			<div className="container my-4">
 				Consulta las fuentes bibliográficas que apoyan la indagación de los temas, dando click al
-				video
+				video <br />
+				<p>Lo puedes detener en cualquier momento, para tomar nota de títulos y autores.</p>
 			</div>
 			<div className="my-4 d-flex flex-column align-items-center">
 				<video controls className="video_bienvenida">
