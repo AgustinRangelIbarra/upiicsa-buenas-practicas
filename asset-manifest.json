@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.bec3af1e.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.949cb3f6.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.949cb3f6.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.d0593aa0.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.d0593aa0.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.ebe04f07.chunk.css": "/upiicsa-buenas-practicas/static/css/2.ebe04f07.chunk.css",
-    "static/js/2.92dc874e.chunk.js": "/upiicsa-buenas-practicas/static/js/2.92dc874e.chunk.js",
-    "static/js/2.92dc874e.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.92dc874e.chunk.js.map",
+    "static/js/2.101cb488.chunk.js": "/upiicsa-buenas-practicas/static/js/2.101cb488.chunk.js",
+    "static/js/2.101cb488.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.101cb488.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.ebe04f07.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.ebe04f07.chunk.css.map",
     "static/css/main.bec3af1e.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.bec3af1e.chunk.css.map",
-    "static/js/2.92dc874e.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.92dc874e.chunk.js.LICENSE.txt",
+    "static/js/2.101cb488.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.101cb488.chunk.js.LICENSE.txt",
     "static/media/AnalisisDeSistemas4.69554d76.jpg": "/upiicsa-buenas-practicas/static/media/AnalisisDeSistemas4.69554d76.jpg",
     "static/media/BuenasPracticas.ffa87386.mp4": "/upiicsa-buenas-practicas/static/media/BuenasPracticas.ffa87386.mp4",
     "static/media/ConoceProfesora3.da53f3bd.jpg": "/upiicsa-buenas-practicas/static/media/ConoceProfesora3.da53f3bd.jpg",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.ebe04f07.chunk.css",
-    "static/js/2.92dc874e.chunk.js",
+    "static/js/2.101cb488.chunk.js",
     "static/css/main.bec3af1e.chunk.css",
-    "static/js/main.949cb3f6.chunk.js"
+    "static/js/main.d0593aa0.chunk.js"
   ]
 }
