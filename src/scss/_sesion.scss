@@ -1,0 +1,12 @@
+.sesions_main {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	gap: 4;
+	margin: auto;
+	text-align: center;
+	.sesion_container {
+		text-align: left;
+		// max-width: 600px;
+		margin: auto;
+	}
+}
