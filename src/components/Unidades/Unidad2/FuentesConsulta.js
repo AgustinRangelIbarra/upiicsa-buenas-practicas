@@ -28,7 +28,7 @@ const FuentesConsulta = () => {
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>
 				</Link>
-				<Link to="/unidad1">
+				<Link to="/unidad2">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="book" />
 					</div>

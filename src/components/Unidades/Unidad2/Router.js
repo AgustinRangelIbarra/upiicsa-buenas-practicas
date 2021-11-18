@@ -6,6 +6,8 @@ import IntroCompetencias from "./IntroCompetencias";
 import MapaActividades from "./MapaActividades";
 import MapaContenido from "./MapaContenido";
 import Unidad_2 from "./Unidad_2";
+import Sesion from "../Unidad2/Sesion2";
+
 
 export function Unidad2Router() {
 	return (
@@ -22,6 +24,7 @@ export function Unidad2Router() {
 				<Route exact path="/unidad2/forma_evaluacion" component={FormaDeEvaluacion} />
 				<Route exact path="/unidad2/mapa_actividades" component={MapaActividades} />
 				<Route exact path="/unidad2/fuentes_consulta" component={FuentesConsulta} />
+				<Route exact path="/unidad2/sesion2" component={Sesion} />
 
 				<Route path="*">
 					<Redirect to="/404" />

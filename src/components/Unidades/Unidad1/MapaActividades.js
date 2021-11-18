@@ -20,7 +20,7 @@ const MapaActividades = () => {
 				<p className="blue_text text-center">
 					<FontAwesomeIcon className="big-icon" icon="calendar" />
 				</p>
-			</div>
+			</div>		
 			<div className="flex-arrows">
 				<Link to="/unidad1/forma_evaluacion">
 					<div className=" homeSVG">
