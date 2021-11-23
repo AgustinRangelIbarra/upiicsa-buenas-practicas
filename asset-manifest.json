@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.bec3af1e.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.3ddda062.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.3ddda062.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.33999581.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.33999581.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.ebe04f07.chunk.css": "/upiicsa-buenas-practicas/static/css/2.ebe04f07.chunk.css",
-    "static/js/2.1bcbade5.chunk.js": "/upiicsa-buenas-practicas/static/js/2.1bcbade5.chunk.js",
-    "static/js/2.1bcbade5.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.1bcbade5.chunk.js.map",
+    "static/js/2.7cdcd19f.chunk.js": "/upiicsa-buenas-practicas/static/js/2.7cdcd19f.chunk.js",
+    "static/js/2.7cdcd19f.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.7cdcd19f.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.ebe04f07.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.ebe04f07.chunk.css.map",
     "static/css/main.bec3af1e.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.bec3af1e.chunk.css.map",
-    "static/js/2.1bcbade5.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.1bcbade5.chunk.js.LICENSE.txt",
+    "static/js/2.7cdcd19f.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.7cdcd19f.chunk.js.LICENSE.txt",
     "static/media/AnalisisDeSistemas4.69554d76.jpg": "/upiicsa-buenas-practicas/static/media/AnalisisDeSistemas4.69554d76.jpg",
     "static/media/BuenasPracticas.ffa87386.mp4": "/upiicsa-buenas-practicas/static/media/BuenasPracticas.ffa87386.mp4",
     "static/media/ConoceProfesora3.da53f3bd.jpg": "/upiicsa-buenas-practicas/static/media/ConoceProfesora3.da53f3bd.jpg",
@@ -30,13 +30,14 @@
     "static/media/ProfesorEmmanuel.bbfcef23.jpg": "/upiicsa-buenas-practicas/static/media/ProfesorEmmanuel.bbfcef23.jpg",
     "static/media/ProfesoraPilar.4bb34971.jpeg": "/upiicsa-buenas-practicas/static/media/ProfesoraPilar.4bb34971.jpeg",
     "static/media/u1_bibliografia.8bfe8678.mp4": "/upiicsa-buenas-practicas/static/media/u1_bibliografia.8bfe8678.mp4",
-    "static/media/u2_bibliografia.d942aa7a.mp4": "/upiicsa-buenas-practicas/static/media/u2_bibliografia.d942aa7a.mp4"
+    "static/media/u2_bibliografia.d942aa7a.mp4": "/upiicsa-buenas-practicas/static/media/u2_bibliografia.d942aa7a.mp4",
+    "static/media/u3_bibliografia.8b1abfcf.mp4": "/upiicsa-buenas-practicas/static/media/u3_bibliografia.8b1abfcf.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.ebe04f07.chunk.css",
-    "static/js/2.1bcbade5.chunk.js",
+    "static/js/2.7cdcd19f.chunk.js",
     "static/css/main.bec3af1e.chunk.css",
-    "static/js/main.3ddda062.chunk.js"
+    "static/js/main.33999581.chunk.js"
   ]
 }
