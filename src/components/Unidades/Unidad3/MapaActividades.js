@@ -19,7 +19,7 @@ const MapaActividades = () => {
 						<FontAwesomeIcon icon="book" />
 					</div>
 				</Link>
-				<Link to="/unidad3/fuentes_consulta">
+				<Link to="/unidad3/sesiones">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-right" />
 					</div>

@@ -52,10 +52,10 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas  del tema estudiado previamente. Contesta las preguntas dirigidas",
+						titulo: "Plantea tus dudas  del tema estudiado previamente.",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigidas" },
 				],
 			},
 		},
@@ -126,10 +126,11 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas. Contesta las preguntas dirigidas del profesor. Participa con una reflexión sobre la importancia del tema.",
+						titulo: "Plantea tus dudas.",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigias del profesor." },
+					{ titulo: "Participa con una reflexión sobre la importancia del tema" },
 				],
 			},
 		},
@@ -181,9 +182,10 @@ export const sesiones = [
 				temas: [
 					{
 						titulo:
-							"Plantea tus dudas  del tema estudiado previamente. Contesta las preguntas dirigidas",
+							"Plantea tus dudas  del tema estudiado previamente.",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigidas" },
 				],
 			},
 		},

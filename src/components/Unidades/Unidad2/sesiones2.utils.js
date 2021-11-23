@@ -9,17 +9,14 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso “Identificación de requerimientos”  ',
+							titulo: "Consulta el recurso “Identificación de requerimientos”  ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
-							
 						},
 						{
-							titulo:
-								"Elabora un organizador gráfico que te permita la comprensión del tema. ",
+							titulo: "Elabora un organizador gráfico que te permita la comprensión del tema. ",
 						},
-						
 					],
 				},
 			},
@@ -28,9 +25,11 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas  del tema estudiado previamente. Contesta las preguntas dirigidas",
+						titulo: "Plantea tus dudas del tema estudiado previamente.",
 						parrafos: [],
+					},
+					{
+						titulo: "Contesta las preguntas dirigidas.",
 					},
 				],
 			},
@@ -46,7 +45,7 @@ export const sesiones = [
 					"Plantea tus dudas. ",
 					"Elabora el proceso para la obtención de requerimientos del estudio de caso correspondiente a la etapa 1 identificación de requerimientos.",
 					"En equipo comenten y retroalimenten el contenido del proceso de los requerimientos que elaboraron previamente de manera individual.",
-                    "De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas."
+					"De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas.",
 				],
 			},
 		},
@@ -61,13 +60,11 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso “Revisión de requerimientos” ',
+							titulo: "Consulta el recurso “Revisión de requerimientos” ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
-						
-						
 					],
 				},
 			},
@@ -76,10 +73,11 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas. Contesta las preguntas dirigidas del profesor. Participa con una reflexión sobre la importancia del tema.",
+						titulo: "Plantea tus dudas.",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigidas del profesor" },
+					{ titulo: "Participa con una reflexión sobre la importancia del tema." },
 				],
 			},
 		},
@@ -94,7 +92,7 @@ export const sesiones = [
 					"Plantea tus dudas. ",
 					"Requisita la tabla de revisión y validación de requerimientos, del estudio de caso correspondiente a la etapa 2.",
 					"En equipo comenten y retroalimenten el contenido de revisión de requerimientos que elaboraron previamente de manera individual",
-                    "De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas."
+					"De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas.",
 				],
 			},
 		},
@@ -109,12 +107,11 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso “Planeación del proyecto” ',
+							titulo: "Consulta el recurso “Planeación del proyecto” ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
-						
 					],
 				},
 			},
@@ -123,10 +120,10 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas  del tema estudiado previamente. Contesta las preguntas dirigidas",
+						titulo: "Plantea tus dudas del tema estudiado previamente.",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigidas" },
 				],
 			},
 		},
@@ -140,13 +137,12 @@ export const sesiones = [
 					"Revisa el archivo “Estudio de caso”.",
 					"Plantea tus dudas.",
 					"Elabora la propuesta de la planeación del proyecto de software, del estudio de caso correspondiente a la etapa 3.",
-                    "En equipo comenten y retroalimenten el contenido de la planeación del proyecto que elaboraron previamente de manera individual.",
-                    "De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas."
+					"En equipo comenten y retroalimenten el contenido de la planeación del proyecto que elaboraron previamente de manera individual.",
+					"De lo comentado en equipo, si lo consideras ajusta la evidencia individual y publícala en la sección de tareas.",
 				],
 			},
 		},
 	},
-
 
 	{
 		id: "15",
@@ -158,12 +154,11 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso “Planeación del proyecto” ',
+							titulo: "Consulta el recurso “Planeación del proyecto” ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
-						
 					],
 				},
 			},
@@ -176,6 +171,7 @@ export const sesiones = [
 							"Plantea tus dudas  del tema estudiado previamente. Contesta las preguntas dirigidas",
 						parrafos: [],
 					},
+					{ titulo: "Contesta las preguntas dirigias" },
 				],
 			},
 		},
@@ -188,7 +184,6 @@ export const sesiones = [
 				instrucciones: [
 					"Contesta el cuestionario, el cual te servirá para autoevaluarte.",
 					"Planea tus dudas al profesor en la sesión. ",
-					
 				],
 			},
 		},

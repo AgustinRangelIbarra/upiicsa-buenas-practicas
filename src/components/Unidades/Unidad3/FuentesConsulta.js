@@ -9,7 +9,7 @@ const FuentesConsulta = () => {
 				<img src={PlecaFuentesConsulta} alt="Unidad 2" className="pleca_de_contenido" />
 			</div>
 			<div className="flex-arrows">
-				<Link to="/unidad3/mapa_actividades">
+				<Link to="/unidad3/sesiones">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>
