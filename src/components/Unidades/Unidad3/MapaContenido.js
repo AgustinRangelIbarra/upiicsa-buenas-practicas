@@ -8,6 +8,10 @@ const MapaContenido = () => {
 			<div className="pleca">
 				<img src={PlecaMapaContenido} alt="Unidad 1" className="pleca_de_contenido" />
 			</div>
+		
+
+			<h4 className="blue_text text-center">¿Cuál es la competencia y los contenidos de la unidad temática?</h4>
+			<p>La competencia y los contenidos se presentan en el mapa, navega por el, dando clic en cada uno de los iconos, cualquier duda, realiza las preguntas en la sesión. </p>
 			<iframe
 				src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=9"
 				width="776"
