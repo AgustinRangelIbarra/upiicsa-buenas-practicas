@@ -92,7 +92,7 @@ const Sesion = () => {
 			</div>
 
 			<div className="flex-arrows">
-				<Link to="/unidad1/mapa_actividades">
+				<Link to="/unidad2/mapa_actividades">
 					<div className=" homeSVG">
 						<FontAwesomeIcon icon="arrow-left" />
 					</div>

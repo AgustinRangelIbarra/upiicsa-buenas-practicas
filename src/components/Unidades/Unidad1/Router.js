@@ -24,6 +24,7 @@ export function Unidad1Router() {
 				<Route exact path="/unidad1/mapa_actividades" component={MapaActividades} />
 				<Route exact path="/unidad1/sesion" component={Sesion} />
 				<Route exact path="/unidad1/fuentes_consulta" component={FuentesConsulta} />
+				<Route exact path="/unidad1/sesion" component={Sesion} />
 
 				<Route path="*">
 					<Redirect to="/404" />
