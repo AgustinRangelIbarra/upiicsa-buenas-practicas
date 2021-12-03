@@ -17,18 +17,11 @@ const MapaContenido = () => {
 				uno de los iconos, cualquier duda, realiza las preguntas en la sesión.
 			</p>
 
-			<iframe
-				src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=8"
-				width="776"
-				height="583"
-				frameborder="0"
-				allowfullscreen="allowfullscreen"
-				title="Mapa Criterios para la identificación de requerimientos"
-			></iframe>
-			<script
-				src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
-				charset="UTF-8"
-			></script>
+			<iframe src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=7" 
+			width="958" height="714" frameborder="0"
+			 allowfullscreen="allowfullscreen" 
+			 title="Mapa Unidad 1"></iframe>
+			<script src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
 			<div className="flex-arrows">
 				<Link to="/unidad1/intro_competencias">
 					<div className=" homeSVG">

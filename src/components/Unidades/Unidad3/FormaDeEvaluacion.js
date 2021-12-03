@@ -10,6 +10,8 @@ const FormaDeEvaluacion = () => {
 				<img src={PlecaEval} alt="Unidad 2" className="pleca_de_contenido" />
 			</div>
 
+			
+
 			<div className="container">
 				<h4 className="blue_text text-center">¿Qué se va a evaluar?</h4>
 				<p>

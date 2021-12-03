@@ -68,6 +68,21 @@ const Menu = () => {
 				</div>
 
 				<div className="menu_option">
+					<Link to="/unidad4/sesiones">
+						<div className="icon">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span className="menu_icons">
+								<FontAwesomeIcon icon="chalkboard-teacher" />
+							</span>
+						</div>
+						<p>Sesiones</p>
+					</Link>
+				</div>
+
+				<div className="menu_option">
 					<Link to="/unidad4/fuentes_consulta">
 						<div className="icon">
 							<span></span>

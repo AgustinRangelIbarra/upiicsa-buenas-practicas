@@ -1,4 +1,4 @@
-import PlecaPrincipal from "../assets/plecas/AnalisisDeSistemas4.jpg";
+import PlecaPrincipal from "../assets/plecas/AnalisisDeSistemas5.jpg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
