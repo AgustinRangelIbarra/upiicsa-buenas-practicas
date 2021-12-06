@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import PlecaConoceProfesora from "../../assets/plecas/ConoceProfesora3.jpg";
-import ProfesoraPilar from "../../assets/fotos/ProfesoraPilar.jpeg";
-import ProfesorEmmanuel from "../../assets/fotos/ProfesorEmmanuel.jpg";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

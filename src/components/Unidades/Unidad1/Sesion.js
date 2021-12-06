@@ -54,6 +54,7 @@ const Sesion = () => {
 												<p>
 													Da click{" "}
 													<a
+														rel="noreferrer"
 														target="_blank"
 														href="https://docs.google.com/forms/d/e/1FAIpQLSfJWIv0Rl-Td3Ikw7FF0Uv8ixvUBQYxRsJm5J6VXLfjzg31hg/viewform?usp=sf_link"
 													>
@@ -89,7 +90,7 @@ const Sesion = () => {
 															</tr>
 															<tr>
 																<th scope="row">Puntualidad </th>
-																<td >Entrega en la fecha establecida.</td>
+																<td>Entrega en la fecha establecida.</td>
 																<td>Entrega en la fecha pero no en la hora. </td>
 																<td>Entrega a destiempo.</td>
 															</tr>
@@ -105,13 +106,16 @@ const Sesion = () => {
 								<Accordion.Item eventKey="1">
 									<Accordion.Header>Sesión en el aula</Accordion.Header>
 									<Accordion.Body>
-										{sesion.sesion_aula.sesion_videoconferencia.temas.map((tema, index) => (
-											<>
-												<h6>{tema.titulo}</h6>
-												<hr />
-												{tema.parrafos?.length > 0 && <p>asdf</p>}
-											</>
-										))}
+										<ol>
+											{sesion.sesion_aula.sesion_videoconferencia.temas.map((tema, index) => (
+												<>
+													<li>
+														{tema.titulo}
+														<ul>{tema.parrafos?.length > 0 && <p>asdf</p>}</ul>
+													</li>
+												</>
+											))}
+										</ol>
 									</Accordion.Body>
 								</Accordion.Item>
 							)}

@@ -26,7 +26,7 @@ const Sesion = () => {
 									<Accordion.Body>
 										<h6>{sesion.extra_clase.actividad_aprendizaje1.titulo}</h6>
 										<p>Antes de la sesión en línea</p>
-										<hr/>
+										<hr />
 										{sesion.extra_clase.actividad_aprendizaje1.sesion_linea.temas.map(
 											(tema, index_) => (
 												<>
@@ -47,7 +47,6 @@ const Sesion = () => {
 												</>
 											)
 										)}
-										
 									</Accordion.Body>
 								)}
 							</Accordion.Item>
@@ -55,13 +54,16 @@ const Sesion = () => {
 								<Accordion.Item eventKey="1">
 									<Accordion.Header>Sesión en el aula</Accordion.Header>
 									<Accordion.Body>
-										{sesion.sesion_aula.sesion_videoconferencia.temas.map((tema, index) => (
-											<>
-												<h6>{tema.titulo}</h6>
-												<hr />
-												{tema.parrafos?.length > 0 && <p>asdf</p>}
-											</>
-										))}
+										<ol>
+											{sesion.sesion_aula.sesion_videoconferencia.temas.map((tema, index) => (
+												<>
+													<li>
+														{tema.titulo}
+														<ul>{tema.parrafos?.length > 0 && <p>asdf</p>}</ul>
+													</li>
+												</>
+											))}
+										</ol>
 									</Accordion.Body>
 								</Accordion.Item>
 							)}

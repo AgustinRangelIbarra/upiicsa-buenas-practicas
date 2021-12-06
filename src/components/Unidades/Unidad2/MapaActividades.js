@@ -2,19 +2,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import PlecaMapaActividaes from "../../../assets/plecas/5P_15-05/Mapa_Actividades.jpg";
 
+// Pdf Viewer
+import { Viewer } from "@react-pdf-viewer/core"; // install this library
+import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // install this library
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+import { Worker } from "@react-pdf-viewer/core";
+import pdfFile from "../../../assets/docs/Agenda_Unidad_II.pdf";
+// Pdf Viewer end
 
-import { Accordion } from "react-bootstrap";
-import PlecaIntro from "../../../assets/plecas/5P_15-05/Pleca_BPS_Sesiones.jpg";
-import { sesiones } from "./sesiones2.utils";
 import "../../../scss/_sesion.scss";
 
 const MapaActividades = () => {
+	const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
 	return (
 		<>
 			<div className="pleca">
 				<img src={PlecaMapaActividaes} alt="Unidad 1" className="pleca_de_contenido" />
 			</div>
-
 
 			<div className="container">
 				<p>Sesión 9 “Revisión de la agenda”</p>
@@ -25,18 +31,14 @@ const MapaActividades = () => {
 					Revisa la agenda y accesa a cada una de las sesiones, cualquier duda plantéala en la
 					sesión.
 				</p>
-				<p className="blue_text text-center">
-					<FontAwesomeIcon className="big-icon" icon="calendar" />
-				</p>
+				<div className="pdfViewer d-flex align-items-center flex-column justify-content-center">
+					<div className="pdf">
+						<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+							<Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
+						</Worker>
+					</div>
+				</div>
 			</div>
-
-
-			
-			
-
-
-
-
 
 			<div className="flex-arrows">
 				<Link to="/unidad2/forma_evaluacion">

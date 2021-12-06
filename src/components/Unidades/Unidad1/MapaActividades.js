@@ -2,7 +2,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import PlecaMapaActividaes from "../../../assets/plecas/5P_15-05/Mapa_Actividades.jpg";
 
+// Pdf Viewer
+import { Viewer } from "@react-pdf-viewer/core"; // install this library
+import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // install this library
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+import { Worker } from "@react-pdf-viewer/core";
+import pdfFile from "../../../assets/docs/Agenda_unidad_I.pdf";
+// Pdf Viewer end
+
 const MapaActividades = () => {
+	const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
 	return (
 		<>
 			<div className="pleca">
@@ -17,12 +28,14 @@ const MapaActividades = () => {
 					Revisa la agenda y accesa a cada una de las sesiones, cualquier duda plantéala en la
 					sesión.
 				</p>
-				<p className="blue_text text-center">
-					<FontAwesomeIcon className="big-icon" icon="calendar" />
-				</p>
-
-				
-			</div>		
+				<div className="pdfViewer d-flex align-items-center flex-column justify-content-center">
+					<div className="pdf">
+						<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+							<Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
+						</Worker>
+					</div>
+				</div>
+			</div>
 			<div className="flex-arrows">
 				<Link to="/unidad1/forma_evaluacion">
 					<div className=" homeSVG">
