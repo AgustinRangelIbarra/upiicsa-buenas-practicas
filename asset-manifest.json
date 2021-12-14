@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/upiicsa-buenas-practicas/static/css/main.da3131e4.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.6093c09f.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.6093c09f.chunk.js.map",
+    "main.css": "/upiicsa-buenas-practicas/static/css/main.36dc08df.chunk.css",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.d742af4a.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.d742af4a.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
-    "static/js/2.65df091a.chunk.js": "/upiicsa-buenas-practicas/static/js/2.65df091a.chunk.js",
-    "static/js/2.65df091a.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.65df091a.chunk.js.map",
+    "static/js/2.a131b9a0.chunk.js": "/upiicsa-buenas-practicas/static/js/2.a131b9a0.chunk.js",
+    "static/js/2.a131b9a0.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.a131b9a0.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.a9506044.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css.map",
-    "static/css/main.da3131e4.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.da3131e4.chunk.css.map",
-    "static/js/2.65df091a.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.65df091a.chunk.js.LICENSE.txt",
+    "static/css/main.36dc08df.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.36dc08df.chunk.css.map",
+    "static/js/2.a131b9a0.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.a131b9a0.chunk.js.LICENSE.txt",
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.a9506044.chunk.css",
-    "static/js/2.65df091a.chunk.js",
-    "static/css/main.da3131e4.chunk.css",
-    "static/js/main.6093c09f.chunk.js"
+    "static/js/2.a131b9a0.chunk.js",
+    "static/css/main.36dc08df.chunk.css",
+    "static/js/main.d742af4a.chunk.js"
   ]
 }
