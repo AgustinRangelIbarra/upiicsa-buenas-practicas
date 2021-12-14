@@ -2,17 +2,17 @@ export const sesiones = [
 	{
 		id: "28",
 		titulo_sesiones: "Sesiones 28, 29 y 30",
-		tema: "Buenas prácticas y marcos de trabajo",
+		tema: "Modelado de prueba",
 		extra_clase: {
 			actividad_aprendizaje1: {
-				titulo: "Actividad de aprendizaje 23: Mejores prácticas para la planeación",
+				titulo: "Actividad de aprendizaje 23: Modelo de prueba",
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso "Mejores prácticas de planeación"',
+							titulo: 'Consulta el recurso "Método verificar y validar"',
 						},
 						{
-							titulo: "Escribe tus didas que tengas sobre el tema estudiado.",
+							titulo: "Escribe tus dudas.",
 						},
 					],
 				},
@@ -26,18 +26,17 @@ export const sesiones = [
 						parrafos: [],
 					},
 					{ titulo: "Plantea tus dudas del tema estudiado previamente." },
-					{ titulo: "Pon atención a la explicación del profesor" },
-					{ titulo: "Contesta las preguntas dirigidas" },
+					{ titulo: "Escucha la explicación del profesor" },
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprendizaje 18: Herramienta de planeación",
+				titulo: "Actividad de aprendizaje 24: Modelo de prueba",
 				parrafos: [""],
 				instrucciones: [
-					"Comenten sobre las herramientas para la planeación de proyectos de software. ",
-					"Contesta el cuestionario.",
+					'En equipo revisa la función "asignación auitomática de horarios" del estudio de caso',
+					"Elaboren el test de prueba.",
 				],
 			},
 		},
@@ -45,14 +44,14 @@ export const sesiones = [
 	{
 		id: "31",
 		titulo_sesiones: "Sesiones 31 y 32",
-		tema: "Mejores prácticas para el diseño de experiencias.",
+		tema: "Estrategias de prueba.",
 		extra_clase: {
 			actividad_aprendizaje1: {
-				titulo: "Actividad de aprendizaje 19: Mejoras prácticas para el diseño de experiencias.",
+				titulo: "Actividad de aprendizaje 25: Estrategias de prueba",
 				sesion_linea: {
 					temas: [
 						{
-							titulo: "Consulta el recurso “Mejores prácticas para el diseño de experiencias” ",
+							titulo: "Consulta el recurso “Pruebas del software ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
@@ -69,17 +68,17 @@ export const sesiones = [
 						parrafos: [],
 					},
 					{ titulo: "Plantea tus dudas del tema estudiado previamente" },
-					{ titulo: "Contesta las preguntas dirigidas" },
+					{ titulo: "Atiende la explicación del profesor" },
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprenizaje 20: Experiencias UI/UX",
+				titulo: "Actividad de aprenizaje 26: Técnicas de prueba",
 				parrafos: [""],
 				instrucciones: [
-					"Indaga sobre las herramientas UI e IDE que se sugieren en el documento “Mejores prácticas para el diseño de experiencias”.",
-					"Considerando la contribución individual, elaboren una tabla comparativa de las características de las herramientas UI e IDE y publícala en la sección de tareas. ",
+					"Comentar sobre las técnicas de pruebna del software.",
+					"Elaboren un organizador gráfico de las técnicas de pruebas del software.",
 				],
 			},
 		},
@@ -87,14 +86,14 @@ export const sesiones = [
 	{
 		id: "33",
 		titulo_sesiones: "Sesiones 33 y 34",
-		tema: "Mejores prácticas para el desarrollo de software",
+		tema: "Medir el alcance de las pruebas",
 		extra_clase: {
 			actividad_aprendizaje1: {
-				titulo: "Actividad de aprendizaje 21: Mejores prácticas para el desarrollo de software",
+				titulo: "Actividad de aprendizaje 27: Medir el alacance de las pruebas",
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso "Mejores prácticas para el desarrollo de software" ',
+							titulo: 'Consulta el recurso "Alcance de las pruebas" ',
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
@@ -112,17 +111,17 @@ export const sesiones = [
 					},
 					{ titulo: "Plantea tus dudas del tema estudiado previamente." },
 					{ titulo: "Contesta las preguntas dirigidas." },
-					{ titulo: "Escucha la explicación del profesor." },
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprendizaje 22: Reglas del desarrollo",
+				titulo: "Actividad de aprendizaje 28: Concurrencia",
 				parrafos: [""],
 				instrucciones: [
-					"Comentan lo estudiado sobre las reglas del desarrollo.",
-					"Elabora una tabla comparativa de las herramientas IDE y DevOps, publícala en la sección de tareas.",
+					"Analicen el tema de Concurrencia.",
+					"Identifiquen a que estrategia de prueba corresponde.",
+					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia",
 				],
 			},
 		},
@@ -130,14 +129,14 @@ export const sesiones = [
 	{
 		id: "35",
 		titulo_sesiones: "Sesiones 35 y 36",
-		tema: "Mejores prácticas para el desarrollo de software",
+		tema: "Medir el costo de las pruebas",
 		extra_clase: {
 			actividad_aprendizaje1: {
-				titulo: "Actividad de aprendizaje 21: Mejores prácticas para el desarrollo de software",
+				titulo: "Actividad de aprendizaje 29: Costo de pruebas",
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso "Mejores prácticas para el desarrollo de software" ',
+							titulo: 'Consulta el recurso "Costo de pruebas" ',
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
@@ -155,17 +154,32 @@ export const sesiones = [
 					},
 					{ titulo: "Plantea tus dudas del tema estudiado previamente." },
 					{ titulo: "Contesta las preguntas dirigidas." },
-					{ titulo: "Escucha la explicación del profesor." },
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprendizaje 22: Reglas del desarrollo",
+				titulo: "Actividad de aprendizaje 30: Optimizar el costo de las pruebas",
 				parrafos: [""],
 				instrucciones: [
-					"Comentan lo estudiado sobre las reglas del desarrollo.",
-					"Elabora una tabla comparativa de las herramientas IDE y DevOps, publícala en la sección de tareas.",
+					"Comenta sobre las opciones de optimizar el costo de las pruebas.",
+					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas",
+				],
+			},
+			actividad_aprendizaje3: {
+				titulo: "Actividad de aprendizaje 31: Control de cambios y versiones",
+				parrafos: [""],
+				instrucciones: [
+					'Consulta el recurso "Control de cambios" ',
+					"Escribe las dudas que tengas sobre el tema",
+				],
+			},
+			actividad_aprendizaje4: {
+				titulo: "Actividad de aprendizaje 32: Cambios y verisones",
+				parrafos: [""],
+				instrucciones: [
+					"COmenta sobre las buenas prácticas de cambios y versiones del software",
+					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software",
 				],
 			},
 		},
