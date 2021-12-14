@@ -1,7 +1,7 @@
 const FormaTrabajo = () => {
 	return (
 		<div>
-			<h3 className="blue_text">¿Cómo vas a trabajar durante el curso?</h3>
+			<h3 className="blue_text">¿Qué actividades realizaras durante el curso?</h3>
 
 			<div>
 				<p>
@@ -36,34 +36,33 @@ const FormaTrabajo = () => {
 			</div>
 			<div>
 				<p>
-					<b>En Equipo: </b>
+					<b>En equipo: </b>
 				</p>
-				<p>
+				<p className="">
 					<ul>
 						<li>
-							Trabajarás en la sección de canales de la plataforma Teams, las cuales deben quedar
-							grabadas.
+						Trabaja en la sección de canales de la plataforma Teams, las cuales deben quedar grabadas. O bien conforma el equipo en el salón de clases presencial. 
 						</li>
 						<li>
-							Las actividades de aprendizaje se realizarán utilizando las herramientas de Microsoft
-							Office 365 en la nube (Word, PowerPoint, entre otras).
+						Utiliza las herramientas y recursos que te permitan documentar la actividad de aprendizaje. 
 						</li>
 						<li>
-							Analizar casos de estudio sobre la implementación de buenas prácticas y marcos de
-							trabajo.
+						Comenta sobre los temas indagados. 
 						</li>
-						<li>Elaborar la presentación del estudio de caso.</li>
+						<li>Analiza el caso de estudio, referente a la implementación de buenas prácticas y marcos de trabajo.</li>
 						<li>
-							Utilizando la videoconferencia expondrás en equipo el análisis del estudio de caso.
+						Elabora la presentación del estudio de caso. 
 						</li>
 						<li>
-							Subirás en la sección de tareas de Teams y Piensa-UPIICSA las evidencias de la
-							indagación y del análisis del estudio de caso.
+						Mediante la videoconferencia o en el salón de clases, expón en equipo el análisis del estudio de caso. 
+						</li>
+						<li>
+						Sube en la sección de tareas de Teams y Piensa-UPIICSA las evidencias de la indagación y del análisis del estudio de caso. 
 						</li>
 					</ul>
 				</p>
 			</div>
-			<p>
+			<p className="txt">
 				Plantea tus dudas en las sesiones en línea o presenciales, mediante los siguientes medios de
 				comunicación: Los canales, en la sección de publicaciones general, mediante la mensajería
 				interna de la plataforma Teams, por el correo electrónico del profesor, o directamente al
