@@ -12,8 +12,6 @@ const Sesion = () => {
 				<img src={PlecaIntro} alt="Unidad 4" className="pleca_de_contenido" />
 			</div>
 
-			<h5>Aún en desarrollo</h5>
-
 			{sesiones.length > 0 && (
 				<div className="sesions_main mt-4">
 					{sesiones.map((sesion) => (
@@ -81,6 +79,48 @@ const Sesion = () => {
 											)}
 											<hr />
 											{sesion.actividad_colaborativo.actividad_aprendizaje2.instrucciones.map(
+												(instruccion, index) => (
+													<p>
+														{index + 1}.- {instruccion}
+													</p>
+												)
+											)}
+										</Accordion.Body>
+									</Accordion.Item>
+								)}
+								{sesion.actividad_colaborativo.actividad_aprendizaje3 && (
+									<Accordion.Item eventKey="3">
+										<Accordion.Header>Actividad de aprendizaje colaborativo</Accordion.Header>
+										<Accordion.Body>
+											<h6>{sesion.actividad_colaborativo.actividad_aprendizaje3.titulo}</h6>
+											{sesion.actividad_colaborativo.actividad_aprendizaje3.parrafos.map(
+												(parrafo) => (
+													<p>{parrafo}</p>
+												)
+											)}
+											<hr />
+											{sesion.actividad_colaborativo.actividad_aprendizaje3.instrucciones.map(
+												(instruccion, index) => (
+													<p>
+														{index + 1}.- {instruccion}
+													</p>
+												)
+											)}
+										</Accordion.Body>
+									</Accordion.Item>
+								)}
+								{sesion.actividad_colaborativo.actividad_aprendizaje4 && (
+									<Accordion.Item eventKey="4">
+										<Accordion.Header>Actividad de aprendizaje colaborativo</Accordion.Header>
+										<Accordion.Body>
+											<h6>{sesion.actividad_colaborativo.actividad_aprendizaje4.titulo}</h6>
+											{sesion.actividad_colaborativo.actividad_aprendizaje4.parrafos.map(
+												(parrafo) => (
+													<p>{parrafo}</p>
+												)
+											)}
+											<hr />
+											{sesion.actividad_colaborativo.actividad_aprendizaje4.instrucciones.map(
 												(instruccion, index) => (
 													<p>
 														{index + 1}.- {instruccion}
