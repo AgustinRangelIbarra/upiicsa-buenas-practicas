@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import PlecaIntro from "../../../assets/plecas/5P_15-05/Pleca_BPS_Sesiones.jpg";
 import { sesiones } from "./sesiones.utils";
 import "../../../scss/_sesion.scss";
+import Iframe from "../Iframe";
 
 const Sesion = () => {
 	console.log(sesiones);
@@ -26,6 +27,14 @@ const Sesion = () => {
 									<Accordion.Body>
 										<h6>{sesion.extra_clase.actividad_aprendizaje1.titulo}</h6>
 										<p>Antes de la sesión en línea</p>
+										{sesion.extra_clase.actividad_aprendizaje1.resource && (
+											<Iframe
+												btnTiile={sesion.tema}
+												iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
+												title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
+												sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
+											/>
+										)}
 										<hr />
 										{sesion.extra_clase.actividad_aprendizaje1.sesion_linea.temas.map(
 											(tema, index_) => (
@@ -66,7 +75,7 @@ const Sesion = () => {
 												<div className="container">
 													<p className="text-center">Tabla 1. Actividades de aprendizaje</p>
 
-													<table class="table">
+													<table className="table">
 														<thead>
 															<tr>
 																<th scope="col">Consideración</th>

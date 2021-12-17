@@ -6,6 +6,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 17: Mejores prácticas para la planeación",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=24",
+					title: "3_1_Mejores_Practicas",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -49,6 +56,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 19: Mejoras prácticas para el diseño de experiencias.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=25",
+					title: "3_2_Mejores_Practicas_Planeación",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -91,6 +105,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 21: Mejores prácticas para el desarrollo de software",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=26",
+					title: "3_3_Mejores_Practicas_Diseño_Experiencia",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{

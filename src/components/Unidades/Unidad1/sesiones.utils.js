@@ -6,6 +6,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 1: Buenas prácticas",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=16",
+					title: "1_1_Buenas_Practicas",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -81,6 +88,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 3: Marcos de trabajo",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=17",
+					title: "1_2_Marcos_Trabajo",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -156,6 +170,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 5: Contextualización de la calidad del software.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=18",
+					title: "1_3_Calidad_Software.",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -181,8 +202,7 @@ export const sesiones = [
 			sesion_videoconferencia: {
 				temas: [
 					{
-						titulo:
-							"Plantea tus dudas  del tema estudiado previamente.",
+						titulo: "Plantea tus dudas  del tema estudiado previamente.",
 						parrafos: [],
 					},
 					{ titulo: "Contesta las preguntas dirigidas" },

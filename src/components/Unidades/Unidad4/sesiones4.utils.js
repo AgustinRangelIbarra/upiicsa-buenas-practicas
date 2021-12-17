@@ -6,6 +6,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 23: Modelo de prueba",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=32",
+					title: "4_1_Modelo_Prueba",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -48,6 +55,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 25: Estrategias de prueba",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=33",
+					title: "4_2_Elegir_Estrategias",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -90,6 +104,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 27: Medir el alacance de las pruebas",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=34",
+					title: "4_3_Alcance_Pruebas",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -133,6 +154,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 29: Costo de pruebas",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=35",
+					title: "4_4_Medir_Costos",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{

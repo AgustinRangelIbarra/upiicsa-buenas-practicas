@@ -22,7 +22,7 @@ const FormaDeEvaluacion = () => {
 				<div className="container">
 					<p className="text-center">Tabla 1. Actividades de aprendizaje</p>
 
-					<table class="table">
+					<table className="table">
 						<thead>
 							<tr>
 								<th scope="col">Actividad de aprendizaje</th>

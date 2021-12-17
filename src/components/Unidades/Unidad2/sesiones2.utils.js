@@ -6,6 +6,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 7. Criterios para la identificación de requerimientos.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=19",
+					title: "2_1_Criterios_requerimientos",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -104,6 +111,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 11: Planeación del proyecto.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=21",
+					title: "2_2_Planeación_proyecto",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
@@ -143,7 +157,6 @@ export const sesiones = [
 			},
 		},
 	},
-
 	{
 		id: "15",
 		titulo_sesiones: "Sesión 15 y 16",
@@ -151,6 +164,13 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 13: Marcos para la planeación del proyecto.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=22",
+					title: "2_3_Criterios_Industria",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+				},
 				sesion_linea: {
 					temas: [
 						{
