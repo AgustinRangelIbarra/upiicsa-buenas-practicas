@@ -17,6 +17,7 @@ const Contenidos = () => {
 				{/* Para Conocerte */}
 				<img src={ParaConocerte} alt="" />
 			</Link>
+			<br></br>
 			<hr />
 			<Link to="/antes_de_comenzar">
 				{/* Antes de Comenzar */}

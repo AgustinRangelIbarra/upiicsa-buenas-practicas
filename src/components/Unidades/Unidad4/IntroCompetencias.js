@@ -9,16 +9,14 @@ const IntroCompetencias = () => {
 				<img src={PlecaIntro} alt="Unidad 2" className="pleca_de_contenido" />
 			</div>
 
-			<div className="container">
+			<div className="container txt">
 				<p>
-				En la unidad temática se revisan las buenas prácticas para realizar las pruebas del software, por lo que al concluir podras identificar las opciones que la industria del software propone para llevarlas a cabo.  
+				En la unidad temática se revisan las buenas prácticas para realizar las pruebas del software, por lo que al concluir podras identificar las opciones que la industria del software propone para llevarlas a cabo.
+				Así mismo se veran las herramienas que se utilizan para realizara el control de cambios y versiones del software. Con lo anterior estas en posibilidad de proponer las pruebas pertinentes en función del tipo de software que se desarrolle.  
+				
 				</p>
-				<p>
-				Así mismo se veran las herramienas que se utilizan para realizara el control de cambios y versiones del software. 
-				</p>
-				<p>
-				Con lo anterior estas en posibilidad de proponer las pruebas pertinentes en función del tipo de software que se desarrolle.  
-				</p>
+				
+				
 				
 
 			</div>

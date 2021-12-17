@@ -20,7 +20,7 @@ const FormaDeEvaluacion = () => {
 				<p>Plantea cualquier duda en la sesión.</p>
 
 				<div className="container">
-					<p className="text-center">Tabla 1. Actividades de aprendizaje</p>
+					<p className="text-center negrita">Tabla 1. Actividades de aprendizaje</p>
 
 					<table className="table">
 						<thead>

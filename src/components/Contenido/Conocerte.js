@@ -9,7 +9,7 @@ const Conocerte = () => {
 			<div className="pleca">
 				<img src={ParaConocerte} alt="Para Conocerte" className="pleca_de_contenido" />
 			</div>
-			<div className="container-sm p-4">
+			<div className="container-sm p-4 txt">
 				<div className="d-flex flex-row wrap container-100">
 					<div className="div-50 d-1">
 						<h3>Evaluación Diagnóstica</h3>

@@ -7,6 +7,13 @@
 	grid-template-areas: "side_menu main_container";
 	margin: 0.5rem;
 
+	.txt{
+		text-align: justify;
+	}
+	.negrita{
+		font-weight: bold;
+	}
+
 	.side_menu {
 		grid-area: side_menu;
 		margin: 0 auto;

@@ -23,69 +23,48 @@ const AntesComenzar = () => {
 
 			<Tabs defaultActiveKey="metodologia" id="uncontrolled-tab-example" className="mb-3">
 				<Tab eventKey="metodologia" title="Metodología">
-					<h3 className="blue_text mb-4">¿Qué metodología educativa se utiliza en el curso?</h3>
-					<p>
-						El modelo pedagógico utilizado es: el modelo híbrido apoyado de la metodología de aula
-						invertida.
-					</p>
-					<p>
-						El método educativo híbrido es la combinación de la educación presencial y a distancia.
-					</p>
-					<p>
-						Al combinar los entornos educativos y la orientación de aula invertida se fomenta el
-						aprendizaje activo.
-					</p>
+
 					<div>
 						<h4 className="text-center">¡Ahora bien!</h4>
 					</div>
-					<iframe
-						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=14"
-						width="693"
-						height="415"
-						frameborder="0"
-						allowfullscreen="allowfullscreen"
-						title="Aprendizaje invertido"
-					></iframe>
-					<script
-						src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
-						charset="UTF-8"
-					></script>
+					
+					<h3 className="blue_text mb-4 text-center">¿Cuáles son los aspectos básicos del modelo a utilizar?</h3>
+					
+					
+					
+					<iframe src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=23" width="845" 
+					height="500" frameborder="0" allowfullscreen="allowfullscreen" 
+					title="Metodología_Educativa"></iframe>
+					<script src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" 
+					charset="UTF-8"></script>
 
 					<div>
-						<p>
+						<p className="txt">
 							Durante el semestre dedica 4 horas a la semana, que son, las que marca el programa de
 							estudios y 3 horas extra clase, lo que te permite concluir el curso con éxito.{" "}
-						</p>
-						<p>
+
 							Cuentas con la asesoría, guía y orientación de tú profesor, quien te dará
 							retroalimentación y evaluará, utilizando los espacios que ofrece la plataforma como:
 							la sección de tareas, la publicación de archivos en línea y las actividades en equipo
 							que se realicen en los canales y en el salón de clases.
 						</p>
 						<p>
+						
+						</p>
+						<p className="txt">
 							Se te recomienda que apliques en la realización de las actividades de aprendizaje, el
 							método de estudio: Exploración, Recepción, Reflexión, Repaso y Evaluación (ERRRE por
 							sus siglas en ingles), lo que coadyuvara en el logro de los propósitos establecidos en
 							la unidad de aprendizaje. Realiza la consulta del método en Internet.
 						</p>
-						<p>
+						<p className="txt">
 							En las sesiones de canales de Teams y en el salón de clases, lleva a cabo el
-							aprendizaje colaborativo.
-						</p>
-						<p>
-							En el equipo toma decisiones, organiza y realiza actividades para llegar a la
-							propuesta o solución del tema.
-						</p>
-						<p>
-							Apoya al equipo en las actividades mediante la comunicación asertiva y un alto sentido
+							aprendizaje colaborativo. En el equipo toma decisiones, organiza y realiza actividades para llegar a la
+							propuesta o solución del tema. Apoya al equipo en las actividades mediante la comunicación asertiva y un alto sentido
 							de responsabilidad.
 						</p>
-						<p>
-							Cuentas con la asesoría, guía y orientación de tú profesor, quien te dará
-							retroalimentación y evaluará, utilizando los espacios que ofrece la plataforma como:
-							la sección de tareas, la publicación de archivos en línea y las actividades en equipo
-							que se realicen en los canales y en el salón de clases.
-						</p>
+						
+						
 					</div>
 				</Tab>
 				<Tab eventKey="durante_el_curso" title="Durante el curso">
@@ -119,29 +98,32 @@ const AntesComenzar = () => {
 							¿Cuál es el contenido de la unidad de aprendizaje y las competencias que
 							desarrollarás?{" "}
 						</h5>
-						<p>Da click y navega por el mapa</p>
+						<p>Da clic y navega por el mapa</p>
+
+						<p>Cualquier duda exponla en la sesión. </p>
 					</div>
-					<iframe
-						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6"
-						width="776"
-						height="583"
-						frameborder="0"
-						allowfullscreen="allowfullscreen"
-						title="Mapa Buenas prácticas de software"
-					></iframe>
+				
 					{/* <p>Cualquier duda plantéala en la sesión en línea.</p> */}
+
+					<iframe src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6" width="845" height="633" 
+					frameborder="0" allowfullscreen="allowfullscreen" title="Mapa Buenas prácticas de software"></iframe>
+					<script src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" 
+					charset="UTF-8"></script>
 				</Tab>
 				<Tab eventKey="forma_de_evaluacion" title="Evaluación">
 					<p>
 						Durante el curso se evaluará: <br />
+						<br></br>
 						<ul>
 							<li>Participación en el aula presencial o en línea.</li>
+							<br></br>
 							<li>Evidencias de las actividades de aprendizaje individuales y colaborativas.</li>
+							<br></br>
 							<li>
 								La solución de un estudio de caso por unidad temática, a partir de la unidad dos.
 							</li>
 						</ul>
-						Revisa la sección Forma de evaluación en cada unidad temática para que conozcas a
+						Revisa la sección forma de evaluación en cada unidad temática para que conozcas a
 						detalle con qué y cómo serás evaluado. Cualquier duda exponla en el aula.
 					</p>
 				</Tab>
