@@ -49,7 +49,7 @@ const FormaDeEvaluacion = () => {
 							</tr>
 							<tr>
 								<th scope="row">Exposición del tema indagado. </th>
-								<td colspan="1">
+								<td colSpan="1">
 									Archivo con la presentación para la exposición. <br /> Exposición del tema
 									mediante la videoconferencia con apoyo de la presentación.
 								</td>
@@ -57,12 +57,12 @@ const FormaDeEvaluacion = () => {
 							</tr>
 							<tr>
 								<th scope="row">Preguntas de reflexión </th>
-								<td colspan="1">Preguntas contestadas en la plataforma </td>
+								<td colSpan="1">Preguntas contestadas en la plataforma </td>
 								<td>20%</td>
 							</tr>
 							<tr>
 								<th scope="row"> </th>
-								<td colspan="1"></td>
+								<td colSpan="1"></td>
 								<td>100%</td>
 							</tr>
 						</tbody>

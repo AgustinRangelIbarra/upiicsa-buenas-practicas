@@ -73,7 +73,7 @@ const FormaDeEvaluacion = () => {
 							
 							<tr>
 								<th scope="row"> </th>
-								<td colspan="1"></td>
+								<td colSpan="1"></td>
 								<td>100%</td>
 							</tr>
 						</tbody>
