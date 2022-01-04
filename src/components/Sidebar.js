@@ -16,21 +16,21 @@ const Sidebar = () => {
 					<div className="card-header">UNIDADES</div>
 					<div className="list-group list-group-flush">
 						<NavLink activeclass="activeLink" to="/unidad1">
-							<div className="list-group-item">Unidad 1. Buenas Prácticas y Marcos de Trabajo</div>
+							<div className="list-group-item">Unidad 1. Buenas prácticas y marcos de trabajo</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" to="/unidad2">
 							<div className="list-group-item">
-								Unidad 2. Mejores Prácticas en la Gestión de los Requerimientos de Software
+								Unidad 2. Mejores prácticas en la gestión de los requerimientos de software
 							</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" to="/unidad3">
 							<div className="list-group-item">
-								Unidad 3. Mejores Prácticas para la Ingeniería de Diseño
+								Unidad 3. Mejores prácticas para la ingeniería de diseño
 							</div>
 						</NavLink>
 						<NavLink activeclass="activeLink" to="/unidad4">
 							<div className="list-group-item">
-								Unidad 4. Mejores Prácticas para los Modelos de Prueba de Software
+								Unidad 4. Mejores prácticas para los modelos de prueba de software
 							</div>
 						</NavLink>
 					</div>
