@@ -27,14 +27,7 @@ const Sesion = () => {
 									<Accordion.Body>
 										<h6>{sesion.extra_clase.actividad_aprendizaje1.titulo}</h6>
 										<p>Antes de la sesión en línea</p>
-										{sesion.extra_clase.actividad_aprendizaje1.resource && (
-											<Iframe
-												btnTiile={sesion.tema}
-												iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
-												title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
-												sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
-											/>
-										)}
+
 										<hr />
 										{sesion.extra_clase.actividad_aprendizaje1.sesion_linea.temas.map(
 											(tema, index_) => (
@@ -47,7 +40,7 @@ const Sesion = () => {
 															{tema.subtemas.map((subtema, index) => (
 																<div>
 																	<div style={{ margin: "0 0 0 20px" }}>
-																		{index_ + 1}.1.{index + 1} {subtema.titulo}
+																		1.1.{index + 1} {subtema.titulo}
 																	</div>
 																</div>
 															))}
@@ -56,6 +49,15 @@ const Sesion = () => {
 												</>
 											)
 										)}
+										<hr />
+										{sesion.extra_clase.actividad_aprendizaje1.resource && (
+											<Iframe
+												btnTiile={sesion.tema}
+												iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
+												title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
+												sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
+											/>
+										)}
 									</Accordion.Body>
 								)}
 							</Accordion.Item>
@@ -63,6 +65,11 @@ const Sesion = () => {
 								<Accordion.Item eventKey="1">
 									<Accordion.Header>Sesión en el aula</Accordion.Header>
 									<Accordion.Body>
+										<h6>
+											Asiste a las sesiones en el aula de videoconferencia o presencial con tu
+											profesor.
+										</h6>
+										<hr />
 										<ol>
 											{sesion.sesion_aula.sesion_videoconferencia.temas.map((tema, index) => (
 												<>

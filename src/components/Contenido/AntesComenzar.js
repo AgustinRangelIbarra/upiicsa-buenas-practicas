@@ -23,34 +23,41 @@ const AntesComenzar = () => {
 
 			<Tabs defaultActiveKey="metodologia" id="uncontrolled-tab-example" className="mb-3">
 				<Tab eventKey="metodologia" title="Metodología">
-
 					<div>
 						<h4 className="text-center">¡Ahora bien!</h4>
 					</div>
-					
-					<h3 className="blue_text mb-4 text-center">¿Cuáles son los aspectos básicos del modelo a utilizar?</h3>
-					
-					
-					
-					<iframe src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=23" width="845" 
-					height="500" frameborder="0" allowfullscreen="allowfullscreen" 
-					title="Metodología_Educativa"></iframe>
-					<script src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" 
-					charset="UTF-8"></script>
+
+					<h3 className="blue_text mb-4 text-center">
+						¿Cuáles son los aspectos básicos del modelo a utilizar?
+					</h3>
+
+					<p className="text-center">Revisa la presentación</p>
+
+					<iframe
+						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=23"
+						width="845"
+						height="500"
+						frameborder="0"
+						allowfullscreen="allowfullscreen"
+						title="Metodología_Educativa"
+					></iframe>
+					<script
+						src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
+						charset="UTF-8"
+					></script>
 
 					<div>
 						<p className="txt">
 							Durante el semestre dedica 4 horas a la semana, que son, las que marca el programa de
 							estudios y 3 horas extra clase, lo que te permite concluir el curso con éxito.{" "}
-
+						</p>{" "}
+						<p>
 							Cuentas con la asesoría, guía y orientación de tú profesor, quien te dará
 							retroalimentación y evaluará, utilizando los espacios que ofrece la plataforma como:
 							la sección de tareas, la publicación de archivos en línea y las actividades en equipo
 							que se realicen en los canales y en el salón de clases.
 						</p>
-						<p>
-						
-						</p>
+						<p></p>
 						<p className="txt">
 							Se te recomienda que apliques en la realización de las actividades de aprendizaje, el
 							método de estudio: Exploración, Recepción, Reflexión, Repaso y Evaluación (ERRRE por
@@ -59,12 +66,16 @@ const AntesComenzar = () => {
 						</p>
 						<p className="txt">
 							En las sesiones de canales de Teams y en el salón de clases, lleva a cabo el
-							aprendizaje colaborativo. En el equipo toma decisiones, organiza y realiza actividades para llegar a la
-							propuesta o solución del tema. Apoya al equipo en las actividades mediante la comunicación asertiva y un alto sentido
+							aprendizaje colaborativo.
+						</p>
+						<p>
+							En el equipo toma decisiones, organiza y realiza actividades para llegar a la
+							propuesta o solución del tema.
+						</p>
+						<p>
+							Apoya al equipo en las actividades mediante la comunicación asertiva y un alto sentido
 							de responsabilidad.
 						</p>
-						
-						
 					</div>
 				</Tab>
 				<Tab eventKey="durante_el_curso" title="Durante el curso">
@@ -102,13 +113,21 @@ const AntesComenzar = () => {
 
 						<p>Cualquier duda exponla en la sesión. </p>
 					</div>
-				
+
 					{/* <p>Cualquier duda plantéala en la sesión en línea.</p> */}
 
-					<iframe src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6" width="845" height="633" 
-					frameborder="0" allowfullscreen="allowfullscreen" title="Mapa Buenas prácticas de software"></iframe>
-					<script src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" 
-					charset="UTF-8"></script>
+					<iframe
+						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6"
+						width="845"
+						height="633"
+						frameborder="0"
+						allowfullscreen="allowfullscreen"
+						title="Mapa Buenas prácticas de software"
+					></iframe>
+					<script
+						src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
+						charset="UTF-8"
+					></script>
 				</Tab>
 				<Tab eventKey="forma_de_evaluacion" title="Evaluación">
 					<p>

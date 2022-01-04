@@ -44,6 +44,7 @@ export const sesiones = [
 				instrucciones: [
 					'En equipo revisa la función "asignación auitomática de horarios" del estudio de caso',
 					"Elaboren el test de prueba.",
+					"Publiquen el test de prueba en la sección de tareas.",
 				],
 			},
 		},
@@ -93,6 +94,7 @@ export const sesiones = [
 				instrucciones: [
 					"Comentar sobre las técnicas de pruebna del software.",
 					"Elaboren un organizador gráfico de las técnicas de pruebas del software.",
+					"Publiquen el organizador gráfico en la sección de tareas.",
 				],
 			},
 		},
@@ -143,6 +145,7 @@ export const sesiones = [
 					"Analicen el tema de Concurrencia.",
 					"Identifiquen a que estrategia de prueba corresponde.",
 					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia",
+					"Publica en la sección de tareas el resumen elaborado."
 				],
 			},
 		},
@@ -153,7 +156,7 @@ export const sesiones = [
 		tema: "Medir el costo de las pruebas",
 		extra_clase: {
 			actividad_aprendizaje1: {
-				titulo: "Actividad de aprendizaje 29: Costo de pruebas",
+				titulo: "Actividad de aprendizaje 29: Medir el costo de las pruebas",
 				resource: {
 					iframe_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=35",

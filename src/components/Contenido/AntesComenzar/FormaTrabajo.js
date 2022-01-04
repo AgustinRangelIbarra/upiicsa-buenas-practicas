@@ -20,17 +20,17 @@ const FormaTrabajo = () => {
 							liga que se encuentra en la plataforma Piensa-UPIICSA.
 						</li>
 						<li>
-							En las sesiones en línea debes participar activamente planteando dudas y haciendo
-							reflexiones sobre los temas que se exponen, para lo cual contarás con recursos
-							didácticos que te apoyan para la comprensión de los temas, los cuales debes
-							estudiarlos previamente.
+							En las sesiones, participa activamente, plantea las dudas y haz
+							reflexiones sobre los temas estudiados previamente. Para lo cual cuentas con recursos
+							didácticos que te apoyan para la comprensión de temas.
 						</li>
 						<li>
 							{" "}
-							Realizar indagación sobre temas obteniendo información, que te permita la
+							Realiza indagación extra-clase sobre los temas, obteniendo información, que te permita la
 							participación en las sesiones.
 						</li>
 						<li>Elaborar organizadores gráficos para la mejor comprensión de los temas.</li>
+						<li>Realiza la exposición de los temas indegados</li>
 					</ul>
 				</p>
 			</div>

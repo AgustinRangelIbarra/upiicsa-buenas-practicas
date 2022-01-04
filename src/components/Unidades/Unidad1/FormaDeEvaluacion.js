@@ -17,7 +17,7 @@ const FormaDeEvaluacion = () => {
 					colaborativo.
 				</p>
 				<p>Revisa la información de la tabla referente a las actividades de aprendizaje.</p>
-				<p>Plantea cualquier duda en la sesión.</p>
+				<p>Plantea cualquier duda en la sesión</p>
 
 				<div className="container">
 					<p className="text-center negrita">Tabla 1. Actividades de aprendizaje</p>
@@ -25,16 +25,16 @@ const FormaDeEvaluacion = () => {
 					<table className="table">
 						<thead>
 							<tr>
-								<th scope="col">Actividad de aprendizaje</th>
-								<th scope="col">Evidencia de Aprendizaje</th>
-								<th scope="col">Ponderación</th>
+								<th className="text-center" scope="col">Actividad de aprendizaje</th>
+								<th className="text-center" scope="col">Evidencia de aprendizaje</th>
+								<th className="text-center" scope="col">Ponderación</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">Participación en las sesiones</th>
-								<td>Expresarse verbalmente durante la sesión. </td>
-								<td>20%</td>
+								<td>Expresarse verbalmente durante la sesión </td>
+								<td className="text-center">20%</td>
 							</tr>
 							<tr>
 								<th scope="row">
@@ -45,25 +45,25 @@ const FormaDeEvaluacion = () => {
 									Archivos con los organizadores gráficos (mapas mentales, mapas conceptuales e
 									infografías)
 								</td>
-								<td>30%</td>
+								<td className="text-center">30%</td>
 							</tr>
 							<tr>
-								<th scope="row">Exposición del tema indagado. </th>
+								<th scope="row">Exposición del tema indagado </th>
 								<td colSpan="1">
 									Archivo con la presentación para la exposición. <br /> Exposición del tema
 									mediante la videoconferencia con apoyo de la presentación.
 								</td>
-								<td>30%</td>
+								<td className="text-center">30%</td>
 							</tr>
 							<tr>
 								<th scope="row">Preguntas de reflexión </th>
 								<td colSpan="1">Preguntas contestadas en la plataforma </td>
-								<td>20%</td>
+								<td className="text-center">20%</td>
 							</tr>
 							<tr>
 								<th scope="row"> </th>
 								<td colSpan="1"></td>
-								<td>100%</td>
+								<td className="text-center">100%</td>
 							</tr>
 						</tbody>
 					</table>
@@ -84,7 +84,7 @@ const FormaDeEvaluacion = () => {
 							Durante el estudio de la unidad temática debes tener 6 participaciones, realiza
 							aportaciones a los temas que se están tratando, las participaciones las registraré con
 							gusto y al final del periodo se tomaran en cuenta en función de la siguiente
-							ponderación
+							ponderación.
 						</p>
 						<p>
 							6 participaciones 2 puntos. <br />

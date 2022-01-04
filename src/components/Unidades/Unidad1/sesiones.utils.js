@@ -23,7 +23,7 @@ export const sesiones = [
 							subtemas: [
 								{
 									id: "1.1.1",
-									titulo: "Especificación de buenas prácticas",
+									titulo: "Especificación de buenas prácticas.",
 								},
 								{
 									id: "1.1.2",
@@ -62,7 +62,7 @@ export const sesiones = [
 						titulo: "Plantea tus dudas  del tema estudiado previamente.",
 						parrafos: [],
 					},
-					{ titulo: "Contesta las preguntas dirigidas" },
+					{ titulo: "Contesta las preguntas dirigidas." },
 				],
 			},
 		},
@@ -141,10 +141,16 @@ export const sesiones = [
 				temas: [
 					{
 						titulo: "Plantea tus dudas.",
-						parrafos: [],
+						parrafos: [
+							"Nombre del marco de trabajo",
+							"Objetivo del marco de trabajo",
+							"Características del marco de trabajo",
+							"Beneficios del marco de trabajo",
+							"Identificar para qué etapa del desarrollo de software se utilizan",
+						],
 					},
-					{ titulo: "Contesta las preguntas dirigias del profesor." },
-					{ titulo: "Participa con una reflexión sobre la importancia del tema" },
+					{ titulo: "Elaboren una sola infografía y publíquenla en la sección de tareas." },
+					{ titulo: "Plantea tus dudas. Realiza la exposición del tema." },
 				],
 			},
 		},
@@ -205,20 +211,20 @@ export const sesiones = [
 						titulo: "Plantea tus dudas  del tema estudiado previamente.",
 						parrafos: [],
 					},
-					{ titulo: "Contesta las preguntas dirigidas" },
+					{ titulo: "Contesta las preguntas dirigidas." },
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Análisis de las buenas prácticas",
+				titulo: "Actividad de aprendizaje 6: Análisis de calidad de software",
 				parrafos: [
 					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten el contenido de nube de palabras que elaboraron previamente de manera individual.",
-					"Elaboren una sola infografía y publíquenla en la sección de tareas.",
-					"Asiste a las sesiones, plantea tus dudas.",
+					"Elaboren una sola nube de palabras y publíquenla en la sección de tareas.",
+					"Plantea tus dudas.",
 				],
 			},
 		},
