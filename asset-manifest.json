@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.3f24e877.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.3f24e877.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.0e91f770.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.0e91f770.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
-    "static/js/2.af1e7155.chunk.js": "/upiicsa-buenas-practicas/static/js/2.af1e7155.chunk.js",
-    "static/js/2.af1e7155.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.af1e7155.chunk.js.map",
+    "static/js/2.bacd9bc7.chunk.js": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js",
+    "static/js/2.bacd9bc7.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.a9506044.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css.map",
     "static/css/main.fdbd5e5f.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css.map",
-    "static/js/2.af1e7155.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.af1e7155.chunk.js.LICENSE.txt",
+    "static/js/2.bacd9bc7.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js.LICENSE.txt",
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
@@ -25,11 +25,11 @@
     "static/media/Mapa_Contenido.26e412c0.jpg": "/upiicsa-buenas-practicas/static/media/Mapa_Contenido.26e412c0.jpg",
     "static/media/ParaConocerte.cd46ba7f.jpg": "/upiicsa-buenas-practicas/static/media/ParaConocerte.cd46ba7f.jpg",
     "static/media/Pleca_BPS_Sesiones.b2d27606.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_Sesiones.b2d27606.jpg",
-    "static/media/Pleca_BPS_U1_2.6e025309.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U1_2.6e025309.jpg",
-    "static/media/Pleca_BPS_U2_3.c45632e2.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U2_3.c45632e2.jpg",
-    "static/media/Pleca_BPS_U4_2.a124d164.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U4_2.a124d164.jpg",
+    "static/media/Pleca_BPS_U1_3.5c29c202.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U1_3.5c29c202.jpg",
+    "static/media/Pleca_BPS_U2_4.d168a2bd.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U2_4.d168a2bd.jpg",
+    "static/media/Pleca_BPS_U4_3.8dcff548.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U4_3.8dcff548.jpg",
     "static/media/Pleca_BP_NecesitasS.b9f379f6.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BP_NecesitasS.b9f379f6.jpg",
-    "static/media/Pleca_MPS_U3_3.7cca35d5.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_MPS_U3_3.7cca35d5.jpg",
+    "static/media/Pleca_MPS_U3_4.fa91cc10.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_MPS_U3_4.fa91cc10.jpg",
     "static/media/test.9bd501a2.pdf": "/upiicsa-buenas-practicas/static/media/test.9bd501a2.pdf",
     "static/media/u1_bibliografia.8bfe8678.mp4": "/upiicsa-buenas-practicas/static/media/u1_bibliografia.8bfe8678.mp4",
     "static/media/u2_bibliografia.d942aa7a.mp4": "/upiicsa-buenas-practicas/static/media/u2_bibliografia.d942aa7a.mp4",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.a9506044.chunk.css",
-    "static/js/2.af1e7155.chunk.js",
+    "static/js/2.bacd9bc7.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.3f24e877.chunk.js"
+    "static/js/main.0e91f770.chunk.js"
   ]
 }
