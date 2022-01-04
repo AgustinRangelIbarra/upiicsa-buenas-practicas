@@ -1,6 +1,16 @@
-import '../../scss/_ifram.scss'
+import "../../scss/_ifram.scss";
+
+// Pdf Viewer
+import { Viewer } from "@react-pdf-viewer/core"; // install this library
+import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // install this library
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import "@react-pdf-viewer/default-layout/lib/styles/index.css";
+import { Worker } from "@react-pdf-viewer/core";
+import pdfFile from "../../assets/docs/test.pdf";
 
 const Iframe = ({ btnTiile, iSrc, title, sSrc }) => {
+	const defaultLayoutPluginInstance = defaultLayoutPlugin();
+
 	return (
 		<>
 			<details>
@@ -42,10 +52,15 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc }) => {
 							allowFullScreen="allowfullscreen"
 							title={title}
 						></iframe>
-						<script
-							src={sSrc}
-							charSet="UTF-8"
-						></script>
+						<script src={sSrc} charSet="UTF-8"></script>
+
+						<div className="pdfViewer d-flex align-items-center flex-column justify-content-center">
+							<div className="pdf">
+								<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+									<Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
+								</Worker>
+							</div>
+						</div>
 					</div>
 				</div>
 			</details>

@@ -20,7 +20,7 @@ const Sesion = () => {
 						<h4 className="blue_text text-center">{sesion.titulo_sesiones}</h4>
 						<h5 className="blue_text text-center">{sesion.tema}</h5>
 
-						<Accordion>
+						<Accordion defaultActiveKey="0">
 							<Accordion.Item eventKey="0">
 								<Accordion.Header>Actividad de Aprendizaje: Extra clase</Accordion.Header>
 								{sesion.extra_clase && (
