@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.0e91f770.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.0e91f770.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.f83f9375.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.f83f9375.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
@@ -12,6 +12,16 @@
     "static/css/2.a9506044.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css.map",
     "static/css/main.fdbd5e5f.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css.map",
     "static/js/2.bacd9bc7.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js.LICENSE.txt",
+    "static/media/1_1_Buenas_Practicas.e4d423aa.pdf": "/upiicsa-buenas-practicas/static/media/1_1_Buenas_Practicas.e4d423aa.pdf",
+    "static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf": "/upiicsa-buenas-practicas/static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf",
+    "static/media/1_3_Calidad_Software.fc04530f.pdf": "/upiicsa-buenas-practicas/static/media/1_3_Calidad_Software.fc04530f.pdf",
+    "static/media/2_1_Criterios_requeri.3924230b.pdf": "/upiicsa-buenas-practicas/static/media/2_1_Criterios_requeri.3924230b.pdf",
+    "static/media/2_2_Planeacion_proyecto.ec4b46b2.pdf": "/upiicsa-buenas-practicas/static/media/2_2_Planeacion_proyecto.ec4b46b2.pdf",
+    "static/media/2_3_Criterios_Industria.2f4eb2cc.pdf": "/upiicsa-buenas-practicas/static/media/2_3_Criterios_Industria.2f4eb2cc.pdf",
+    "static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf": "/upiicsa-buenas-practicas/static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf",
+    "static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf": "/upiicsa-buenas-practicas/static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf",
+    "static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf": "/upiicsa-buenas-practicas/static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf",
+    "static/media/4_1_Modelo_prueba.c4ae6b65.pdf": "/upiicsa-buenas-practicas/static/media/4_1_Modelo_prueba.c4ae6b65.pdf",
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
@@ -41,6 +51,6 @@
     "static/css/2.a9506044.chunk.css",
     "static/js/2.bacd9bc7.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.0e91f770.chunk.js"
+    "static/js/main.f83f9375.chunk.js"
   ]
 }
