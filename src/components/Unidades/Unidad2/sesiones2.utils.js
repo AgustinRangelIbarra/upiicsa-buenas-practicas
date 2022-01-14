@@ -12,6 +12,7 @@ export const sesiones = [
 					title: "2_1_Criterios_requerimientos",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u21",
 				},
 				sesion_linea: {
 					temas: [
@@ -117,6 +118,7 @@ export const sesiones = [
 					title: "2_2_Planeación_proyecto",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u22",
 				},
 				sesion_linea: {
 					temas: [
@@ -170,6 +172,7 @@ export const sesiones = [
 					title: "2_3_Criterios_Industria",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u23",
 				},
 				sesion_linea: {
 					temas: [

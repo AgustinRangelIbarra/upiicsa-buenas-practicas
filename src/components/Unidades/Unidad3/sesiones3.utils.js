@@ -12,6 +12,7 @@ export const sesiones = [
 					title: "3_1_Mejores_Practicas",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u31",
 				},
 				sesion_linea: {
 					temas: [
@@ -62,6 +63,7 @@ export const sesiones = [
 					title: "3_2_Mejores_Practicas_Planeación",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u32",
 				},
 				sesion_linea: {
 					temas: [
@@ -111,6 +113,7 @@ export const sesiones = [
 					title: "3_3_Mejores_Practicas_Diseño_Experiencia",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u33",
 				},
 				sesion_linea: {
 					temas: [

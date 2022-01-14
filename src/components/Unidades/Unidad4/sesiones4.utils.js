@@ -12,6 +12,7 @@ export const sesiones = [
 					title: "4_1_Modelo_Prueba",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+						pdf: 'u41'
 				},
 				sesion_linea: {
 					temas: [

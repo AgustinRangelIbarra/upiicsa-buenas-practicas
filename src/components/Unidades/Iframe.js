@@ -6,10 +6,74 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // insta
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { Worker } from "@react-pdf-viewer/core";
-import pdfFile from "../../assets/docs/test.pdf";
 
-const Iframe = ({ btnTiile, iSrc, title, sSrc }) => {
+import test from "./../../assets/docs/test.pdf";
+import unidad11 from "./../../assets/docs/1_1_Buenas_Practicas.pdf";
+import unidad12 from "./../../assets/docs/1_2_Marcos_Trabajo.pdf";
+import unidad13 from "./../../assets/docs/1_3_Calidad_Software.pdf";
+
+import unidad21 from "./../../assets/docs/2_1_Criterios_requeri.pdf";
+import unidad22 from "./../../assets/docs/2_2_Planeacion_proyecto.pdf";
+import unidad23 from "./../../assets/docs/2_3_Criterios_Industria.pdf";
+
+import unidad31 from "./../../assets/docs/3_1_Mejores_practicas_diseno.pdf";
+import unidad32 from "./../../assets/docs/3_2_Mejores_practicas_planeacion.pdf";
+import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseño_experiencias.pdf";
+
+import unidad41 from "./../../assets/docs/4_1_Modelo_prueba.pdf";
+
+const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
+	let definitive = null;
+	console.log(pdf);
+	window.scrollTo(0, 0);
+
+	switch (pdf) {
+		case "u11":
+			definitive = unidad11;
+			break;
+
+		case "u12":
+			definitive = unidad12;
+			break;
+
+		case "u13":
+			definitive = unidad13;
+			break;
+
+		case "u21":
+			definitive = unidad21;
+			break;
+
+		case "u22":
+			definitive = unidad22;
+			break;
+
+		case "u23":
+			definitive = unidad23;
+			break;
+
+		case "u31":
+			definitive = unidad31;
+			break;
+
+		case "u32":
+			definitive = unidad32;
+			break;
+
+		case "u33":
+			definitive = unidad33;
+			break;
+
+		case "u41":
+			definitive = unidad41;
+			break;
+
+		default:
+			definitive = test;
+			break;
+	}
+	console.log(definitive);
 
 	return (
 		<>
@@ -41,23 +105,10 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc }) => {
 						<h1>{btnTiile}</h1>
 					</div>
 					<div className="details-modal-content-h5p">
-						<small className="text-black-50">
-							En caso de que no se visualice el componente, favor de dar click en "REUSE"
-						</small>
-						<iframe
-							src={iSrc}
-							width="958"
-							height="564"
-							frameBorder="0"
-							allowFullScreen="allowfullscreen"
-							title={title}
-						></iframe>
-						<script src={sSrc} charSet="UTF-8"></script>
-
 						<div className="pdfViewer d-flex align-items-center flex-column justify-content-center">
 							<div className="pdf">
 								<Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
-									<Viewer fileUrl={pdfFile} plugins={[defaultLayoutPluginInstance]} />
+									<Viewer fileUrl={definitive} plugins={[defaultLayoutPluginInstance]} />
 								</Worker>
 							</div>
 						</div>

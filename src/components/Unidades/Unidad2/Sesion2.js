@@ -56,6 +56,7 @@ const Sesion = () => {
 												iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
 												title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
 												sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
+												pdf={sesion.extra_clase.actividad_aprendizaje1.resource.pdf}
 											/>
 										)}
 									</Accordion.Body>

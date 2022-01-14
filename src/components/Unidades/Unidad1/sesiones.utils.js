@@ -12,6 +12,7 @@ export const sesiones = [
 					title: "1_1_Buenas_Practicas",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u11",
 				},
 				sesion_linea: {
 					temas: [
@@ -94,6 +95,7 @@ export const sesiones = [
 					title: "1_2_Marcos_Trabajo",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+						pdf: 'u12'
 				},
 				sesion_linea: {
 					temas: [
@@ -182,6 +184,7 @@ export const sesiones = [
 					title: "1_3_Calidad_Software.",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+						pdf: 'u13'
 				},
 				sesion_linea: {
 					temas: [
