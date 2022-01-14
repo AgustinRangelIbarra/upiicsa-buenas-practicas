@@ -23,6 +23,9 @@ import unidad32 from "./../../assets/docs/3_2_Mejores_practicas_planeacion.pdf";
 import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseño_experiencias.pdf";
 
 import unidad41 from "./../../assets/docs/4_1_Modelo_prueba.pdf";
+import unidad42 from "./../../assets/docs/4_2_Elegir_estrategias.pdf"
+import unidad43 from "./../../assets/docs/4_3_Alcance_pruebas.pdf";
+import unidad44 from "./../../assets/docs/Unidad 4_4, 5, 6. costos-herramientas-versiones.pdf";
 
 const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
@@ -72,15 +75,15 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 			break;
 
 		case "u42":
-			definitive = test;
+			definitive = unidad42;
 			break;
 
 		case "u43":
-			definitive = test;
+			definitive = unidad43;
 			break;
 
 		case "u44":
-			definitive = test;
+			definitive = unidad44;
 			break;
 
 		default:

@@ -68,7 +68,7 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: "Consulta el recurso “Pruebas del software ",
+							titulo: "Consulta el recurso “Pruebas del software. ",
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
@@ -84,8 +84,8 @@ export const sesiones = [
 						titulo: "Asiste a las sesiones.",
 						parrafos: [],
 					},
-					{ titulo: "Plantea tus dudas del tema estudiado previamente" },
-					{ titulo: "Atiende la explicación del profesor" },
+					{ titulo: "Plantea tus dudas del tema estudiado previamente." },
+					{ titulo: "Atiende la explicación del profesor." },
 				],
 			},
 		},
@@ -122,7 +122,7 @@ export const sesiones = [
 							titulo: 'Consulta el recurso "Alcance de las pruebas" ',
 						},
 						{
-							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
+							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
 					],
 				},
@@ -147,7 +147,7 @@ export const sesiones = [
 				instrucciones: [
 					"Analicen el tema de Concurrencia.",
 					"Identifiquen a que estrategia de prueba corresponde.",
-					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia",
+					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia.",
 					"Publica en la sección de tareas el resumen elaborado.",
 				],
 			},
@@ -156,7 +156,7 @@ export const sesiones = [
 	{
 		id: "35",
 		titulo_sesiones: "Sesiones 35 y 36",
-		tema: "Medir el costo de las pruebas",
+		tema: "Medir el costo de las pruebas, control de cambios y versiones y herramientas integradas",
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 29: Medir el costo de las pruebas",
@@ -171,7 +171,7 @@ export const sesiones = [
 				sesion_linea: {
 					temas: [
 						{
-							titulo: 'Consulta el recurso "Costo de pruebas" ',
+							titulo: 'Consulta el recurso "Medir el costo de las pruebas, control de cambios y versiones y herramientas integradas" ',
 						},
 						{
 							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
@@ -198,23 +198,23 @@ export const sesiones = [
 				parrafos: [""],
 				instrucciones: [
 					"Comenta sobre las opciones de optimizar el costo de las pruebas.",
-					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas",
+					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas.",
 				],
 			},
 			actividad_aprendizaje3: {
-				titulo: "Actividad de aprendizaje 31: Control de cambios y versiones",
+				titulo: "Actividad de aprendizaje 31: Control de cambios y versiones.",
 				parrafos: [""],
 				instrucciones: [
-					'Consulta el recurso "Control de cambios" ',
-					"Escribe las dudas que tengas sobre el tema",
+					'Consulta el recurso "Medir el costo de las pruebas, control de cambios y versiones y herramientas integradas" ',
+					"Escribe las dudas que tengas sobre el tema.",
 				],
 			},
 			actividad_aprendizaje4: {
 				titulo: "Actividad de aprendizaje 32: Cambios y verisones",
 				parrafos: [""],
 				instrucciones: [
-					"COmenta sobre las buenas prácticas de cambios y versiones del software",
-					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software",
+					"Comenta sobre las buenas prácticas de cambios y versiones del software.",
+					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software.",
 				],
 			},
 		},
