@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.f83f9375.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.f83f9375.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.b5154a3f.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.b5154a3f.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
-    "static/js/2.bacd9bc7.chunk.js": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js",
-    "static/js/2.bacd9bc7.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js.map",
+    "static/js/2.1dd320ed.chunk.js": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js",
+    "static/js/2.1dd320ed.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.a9506044.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css.map",
     "static/css/main.fdbd5e5f.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css.map",
-    "static/js/2.bacd9bc7.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.bacd9bc7.chunk.js.LICENSE.txt",
+    "static/js/2.1dd320ed.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js.LICENSE.txt",
     "static/media/1_1_Buenas_Practicas.e4d423aa.pdf": "/upiicsa-buenas-practicas/static/media/1_1_Buenas_Practicas.e4d423aa.pdf",
     "static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf": "/upiicsa-buenas-practicas/static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf",
     "static/media/1_3_Calidad_Software.fc04530f.pdf": "/upiicsa-buenas-practicas/static/media/1_3_Calidad_Software.fc04530f.pdf",
@@ -22,6 +22,8 @@
     "static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf": "/upiicsa-buenas-practicas/static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf",
     "static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf": "/upiicsa-buenas-practicas/static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf",
     "static/media/4_1_Modelo_prueba.c4ae6b65.pdf": "/upiicsa-buenas-practicas/static/media/4_1_Modelo_prueba.c4ae6b65.pdf",
+    "static/media/4_2_Elegir_estrategias.af0058e9.pdf": "/upiicsa-buenas-practicas/static/media/4_2_Elegir_estrategias.af0058e9.pdf",
+    "static/media/4_3_Alcance_pruebas.989d842f.pdf": "/upiicsa-buenas-practicas/static/media/4_3_Alcance_pruebas.989d842f.pdf",
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
@@ -40,6 +42,7 @@
     "static/media/Pleca_BPS_U4_3.8dcff548.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U4_3.8dcff548.jpg",
     "static/media/Pleca_BP_NecesitasS.b9f379f6.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BP_NecesitasS.b9f379f6.jpg",
     "static/media/Pleca_MPS_U3_4.fa91cc10.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_MPS_U3_4.fa91cc10.jpg",
+    "static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.0e177b20.pdf": "/upiicsa-buenas-practicas/static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.0e177b20.pdf",
     "static/media/test.9bd501a2.pdf": "/upiicsa-buenas-practicas/static/media/test.9bd501a2.pdf",
     "static/media/u1_bibliografia.8bfe8678.mp4": "/upiicsa-buenas-practicas/static/media/u1_bibliografia.8bfe8678.mp4",
     "static/media/u2_bibliografia.d942aa7a.mp4": "/upiicsa-buenas-practicas/static/media/u2_bibliografia.d942aa7a.mp4",
@@ -49,8 +52,8 @@
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.a9506044.chunk.css",
-    "static/js/2.bacd9bc7.chunk.js",
+    "static/js/2.1dd320ed.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.f83f9375.chunk.js"
+    "static/js/main.b5154a3f.chunk.js"
   ]
 }
