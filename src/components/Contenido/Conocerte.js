@@ -30,6 +30,7 @@ const Conocerte = () => {
 						<br />
 						Contesta las siguientes preguntas:
 						<br />
+						<br></br>
 						<a target="_blank" rel="noreferrer" href="https://forms.gle/6EZWLPvc18mxvMfp9">
 							<p>Tus expectativas</p>
 						</a>

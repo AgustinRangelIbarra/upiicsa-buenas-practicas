@@ -166,7 +166,7 @@ export const sesiones = [
 					title: "4_4_Medir_Costos",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
-						pdf: 'u44'
+					pdf: "u44",
 				},
 				sesion_linea: {
 					temas: [
