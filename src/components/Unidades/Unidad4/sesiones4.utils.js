@@ -12,7 +12,7 @@ export const sesiones = [
 					title: "4_1_Modelo_Prueba",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
-						pdf: 'u41'
+					pdf: "u41",
 				},
 				sesion_linea: {
 					temas: [
@@ -63,6 +63,7 @@ export const sesiones = [
 					title: "4_2_Elegir_Estrategias",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u42",
 				},
 				sesion_linea: {
 					temas: [
@@ -113,6 +114,7 @@ export const sesiones = [
 					title: "4_3_Alcance_Pruebas",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u43",
 				},
 				sesion_linea: {
 					temas: [
@@ -146,7 +148,7 @@ export const sesiones = [
 					"Analicen el tema de Concurrencia.",
 					"Identifiquen a que estrategia de prueba corresponde.",
 					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia",
-					"Publica en la sección de tareas el resumen elaborado."
+					"Publica en la sección de tareas el resumen elaborado.",
 				],
 			},
 		},
@@ -164,6 +166,7 @@ export const sesiones = [
 					title: "4_4_Medir_Costos",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+						pdf: 'u44'
 				},
 				sesion_linea: {
 					temas: [

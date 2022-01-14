@@ -69,6 +69,18 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 			definitive = unidad41;
 			break;
 
+		case "u42":
+			definitive = test;
+			break;
+
+		case "u43":
+			definitive = test;
+			break;
+
+		case "u44":
+			definitive = test;
+			break;
+
 		default:
 			definitive = test;
 			break;
