@@ -1,14 +1,17 @@
 import "../../scss/_ifram.scss";
 
+
+
 // Pdf Viewer
 import { Viewer } from "@react-pdf-viewer/core"; // install this library
 import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // install this library
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { Worker } from "@react-pdf-viewer/core";
-import pdfFile from "../../assets/docs/test.pdf";
+const prueba="../../assets/docs/1_1_Buenas_Practicas.pdf";
 
-const Iframe = ({ btnTiile, iSrc, title, sSrc }) => {
+
+const Iframe = ({ btnTiile, iSrc, title, sSrc,pdfFile}) => {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
 	return (

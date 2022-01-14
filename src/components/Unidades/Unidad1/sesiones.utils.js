@@ -12,6 +12,7 @@ export const sesiones = [
 					title: "1_1_Buenas_Practicas",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+						pdf:"../../assets/docs/1_1_Buenas_Practicas.pdf"
 				},
 				sesion_linea: {
 					temas: [
@@ -55,6 +56,7 @@ export const sesiones = [
 				},
 			},
 		},
+		
 		sesion_aula: {
 			sesion_videoconferencia: {
 				temas: [
@@ -108,11 +110,11 @@ export const sesiones = [
 							subtemas: [
 								{
 									id: "1.1.1",
-									titulo: "Especificación de marcos de trabajo",
+									titulo: "Especificación de marcos de trabajo.",
 								},
 								{
 									id: "1.1.2",
-									titulo: "Objetivo de implementar marcos de trabajo",
+									titulo: "Objetivo de implementar marcos de trabajo.",
 								},
 								{
 									id: "1.1.3",
@@ -142,11 +144,11 @@ export const sesiones = [
 					{
 						titulo: "Plantea tus dudas.",
 						parrafos: [
-							"Nombre del marco de trabajo",
-							"Objetivo del marco de trabajo",
-							"Características del marco de trabajo",
-							"Beneficios del marco de trabajo",
-							"Identificar para qué etapa del desarrollo de software se utilizan",
+							"Nombre del marco de trabajo.",
+							"Objetivo del marco de trabajo.",
+							"Características del marco de trabajo.",
+							"Beneficios del marco de trabajo.",
+							"Identificar para qué etapa del desarrollo de software se utilizan.",
 						],
 					},
 					{ titulo: "Elaboren una sola infografía y publíquenla en la sección de tareas." },
@@ -156,7 +158,7 @@ export const sesiones = [
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprenizaje 4: Análisis de marcos de trabajo",
+				titulo: "Actividad de aprenizaje 4: Análisis de marcos de trabajo.",
 				parrafos: [
 					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
 				],

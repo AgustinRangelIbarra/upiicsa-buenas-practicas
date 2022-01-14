@@ -119,7 +119,7 @@ export const sesiones = [
 							titulo: 'Consulta el recurso "Alcance de las pruebas" ',
 						},
 						{
-							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
+							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
 					],
 				},
@@ -144,7 +144,7 @@ export const sesiones = [
 				instrucciones: [
 					"Analicen el tema de Concurrencia.",
 					"Identifiquen a que estrategia de prueba corresponde.",
-					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia",
+					"Elaboren un resumen de la importancia que tienen las pruebas del software con respecto a la concucrrencia.",
 					"Publica en la sección de tareas el resumen elaborado."
 				],
 			},
@@ -170,7 +170,7 @@ export const sesiones = [
 							titulo: 'Consulta el recurso "Costo de pruebas" ',
 						},
 						{
-							titulo: "Escribe las dudas que tengas sobre el tema estudiado",
+							titulo: "Escribe las dudas que tengas sobre el tema estudiado.",
 						},
 					],
 				},
@@ -194,7 +194,7 @@ export const sesiones = [
 				parrafos: [""],
 				instrucciones: [
 					"Comenta sobre las opciones de optimizar el costo de las pruebas.",
-					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas",
+					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas.",
 				],
 			},
 			actividad_aprendizaje3: {
@@ -202,7 +202,7 @@ export const sesiones = [
 				parrafos: [""],
 				instrucciones: [
 					'Consulta el recurso "Control de cambios" ',
-					"Escribe las dudas que tengas sobre el tema",
+					"Escribe las dudas que tengas sobre el tema.",
 				],
 			},
 			actividad_aprendizaje4: {
@@ -210,7 +210,7 @@ export const sesiones = [
 				parrafos: [""],
 				instrucciones: [
 					"COmenta sobre las buenas prácticas de cambios y versiones del software",
-					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software",
+					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software.",
 				],
 			},
 		},
