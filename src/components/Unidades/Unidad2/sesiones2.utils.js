@@ -65,6 +65,7 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 9: Revisión de requerimientos.",
+				
 				sesion_linea: {
 					temas: [
 						{

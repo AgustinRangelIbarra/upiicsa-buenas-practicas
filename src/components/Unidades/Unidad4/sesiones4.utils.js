@@ -189,34 +189,22 @@ export const sesiones = [
 					},
 					{ titulo: "Plantea tus dudas del tema estudiado previamente." },
 					{ titulo: "Contesta las preguntas dirigidas." },
+					{ titulo: "Escucha la explicación del profesor. "}
 				],
 			},
 		},
 		actividad_colaborativo: {
 			actividad_aprendizaje2: {
-				titulo: "Actividad de aprendizaje 30: Optimizar el costo de las pruebas",
+				titulo: "Actividad de aprendizaje 30: Costos, cambios y versiones.",
 				parrafos: [""],
 				instrucciones: [
-					"Comenta sobre las opciones de optimizar el costo de las pruebas.",
-					"Elaboren un documento con tres propuestas para optimizar los costos de las pruebas.",
+					"Comenta sobre las buenas prácticas de optimizar el costo de las pruebas y el cambio de versiones del software.",
+					"Elaboren un documento con tres propuestas para la optimización de los cambios, las versiones y los costos del software.",
+					"Publica el documento en la sección de tareas. ",
 				],
 			},
-			actividad_aprendizaje3: {
-				titulo: "Actividad de aprendizaje 31: Control de cambios y versiones.",
-				parrafos: [""],
-				instrucciones: [
-					'Consulta el recurso "Medir el costo de las pruebas, control de cambios y versiones y herramientas integradas" ',
-					"Escribe las dudas que tengas sobre el tema.",
-				],
-			},
-			actividad_aprendizaje4: {
-				titulo: "Actividad de aprendizaje 32: Cambios y verisones",
-				parrafos: [""],
-				instrucciones: [
-					"Comenta sobre las buenas prácticas de cambios y versiones del software.",
-					"Elaboren un documento con tres ventajas de llevar los cambios de versiones del software.",
-				],
-			},
+			
+			
 		},
 	},
 ];
