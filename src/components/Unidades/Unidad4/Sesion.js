@@ -51,7 +51,7 @@ const Sesion = () => {
 											)}
 											<hr></hr>
 
-{sesion.extra_clase.actividad_aprendizaje1.resource && (
+											{sesion.extra_clase.actividad_aprendizaje1.resource && (
 												<Iframe
 													btnTiile={sesion.tema}
 													iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
