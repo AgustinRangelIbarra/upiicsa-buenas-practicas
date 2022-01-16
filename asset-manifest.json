@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.2fde7487.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.2fde7487.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.07f2db0c.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.07f2db0c.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
@@ -27,6 +27,7 @@
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
+    "static/media/Agenda_unidad_IV.1ee69766.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_IV.1ee69766.pdf",
     "static/media/AnalisisDeSistemas5.04333e4b.jpg": "/upiicsa-buenas-practicas/static/media/AnalisisDeSistemas5.04333e4b.jpg",
     "static/media/BuenasPracticas.ffa87386.mp4": "/upiicsa-buenas-practicas/static/media/BuenasPracticas.ffa87386.mp4",
     "static/media/ConoceProfesora3.da53f3bd.jpg": "/upiicsa-buenas-practicas/static/media/ConoceProfesora3.da53f3bd.jpg",
@@ -54,6 +55,6 @@
     "static/css/2.a9506044.chunk.css",
     "static/js/2.1dd320ed.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.2fde7487.chunk.js"
+    "static/js/main.07f2db0c.chunk.js"
   ]
 }
