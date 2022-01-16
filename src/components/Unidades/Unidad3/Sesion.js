@@ -28,15 +28,7 @@ const Sesion = () => {
 										<Accordion.Body>
 											<h6>{sesion.extra_clase.actividad_aprendizaje1.titulo}</h6>
 											<p>Antes de la sesión en línea</p>
-											{sesion.extra_clase.actividad_aprendizaje1.resource && (
-												<Iframe
-													btnTiile={sesion.tema}
-													iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
-													title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
-													sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
-													pdf={sesion.extra_clase.actividad_aprendizaje1.resource.pdf}
-												/>
-											)}
+											
 											<hr />
 											{sesion.extra_clase.actividad_aprendizaje1.sesion_linea.temas.map(
 												(tema, index_) => (
@@ -57,6 +49,17 @@ const Sesion = () => {
 														)}
 													</>
 												)
+											)}
+
+											<hr></hr>
+											{sesion.extra_clase.actividad_aprendizaje1.resource && (
+												<Iframe
+													btnTiile={sesion.tema}
+													iSrc={sesion.extra_clase.actividad_aprendizaje1.resource.iframe_src}
+													title={sesion.extra_clase.actividad_aprendizaje1.resource.title}
+													sSrc={sesion.extra_clase.actividad_aprendizaje1.resource.script_src}
+													pdf={sesion.extra_clase.actividad_aprendizaje1.resource.pdf}
+												/>
 											)}
 										</Accordion.Body>
 									)}
