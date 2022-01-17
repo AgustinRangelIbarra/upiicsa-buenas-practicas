@@ -14,7 +14,8 @@ import unidad11 from "./../../assets/docs/1_1_Buenas_Practicas.pdf";
 import unidad12 from "./../../assets/docs/1_2_Marcos_Trabajo.pdf";
 import unidad13 from "./../../assets/docs/1_3_Calidad_Software.pdf";
 
-import unidad21 from "./../../assets/docs/2_1_Criterios_requeri.pdf";
+import unidad21 from "./../../assets/docs/2_Criterios_requerimientos.pdf";
+import unidad211 from "./../../assets/docs/2_revision_reque.pdf";
 import unidad22 from "./../../assets/docs/2_2_Planeacion_proyecto.pdf";
 import unidad23 from "./../../assets/docs/2_3_Criterios_Industria.pdf";
 
@@ -48,6 +49,10 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 
 		case "u21":
 			definitive = unidad21;
+			break;
+
+		case "u211":
+			definitive = unidad211;
 			break;
 
 		case "u22":
