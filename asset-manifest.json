@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.07f2db0c.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.07f2db0c.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.7dfd3f53.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.7dfd3f53.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
@@ -15,9 +15,10 @@
     "static/media/1_1_Buenas_Practicas.e4d423aa.pdf": "/upiicsa-buenas-practicas/static/media/1_1_Buenas_Practicas.e4d423aa.pdf",
     "static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf": "/upiicsa-buenas-practicas/static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf",
     "static/media/1_3_Calidad_Software.fc04530f.pdf": "/upiicsa-buenas-practicas/static/media/1_3_Calidad_Software.fc04530f.pdf",
-    "static/media/2_1_Criterios_requeri.3924230b.pdf": "/upiicsa-buenas-practicas/static/media/2_1_Criterios_requeri.3924230b.pdf",
     "static/media/2_2_Planeacion_proyecto.ec4b46b2.pdf": "/upiicsa-buenas-practicas/static/media/2_2_Planeacion_proyecto.ec4b46b2.pdf",
     "static/media/2_3_Criterios_Industria.2f4eb2cc.pdf": "/upiicsa-buenas-practicas/static/media/2_3_Criterios_Industria.2f4eb2cc.pdf",
+    "static/media/2_Criterios_requerimientos.8e1ea6c8.pdf": "/upiicsa-buenas-practicas/static/media/2_Criterios_requerimientos.8e1ea6c8.pdf",
+    "static/media/2_revision_reque.990af9dc.pdf": "/upiicsa-buenas-practicas/static/media/2_revision_reque.990af9dc.pdf",
     "static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf": "/upiicsa-buenas-practicas/static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf",
     "static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf": "/upiicsa-buenas-practicas/static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf",
     "static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf": "/upiicsa-buenas-practicas/static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf",
@@ -55,6 +56,6 @@
     "static/css/2.a9506044.chunk.css",
     "static/js/2.1dd320ed.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.07f2db0c.chunk.js"
+    "static/js/main.7dfd3f53.chunk.js"
   ]
 }
