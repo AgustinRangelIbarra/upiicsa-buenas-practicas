@@ -1,6 +1,6 @@
 import Contenidos from "./Contenido/Contenidos";
 import video_bienvenida from "../assets/videos/BuenasPracticas.mp4";
-alert("Para el uso de este recurso didactico se recomienda usar los navegadores de Chrome o Firefox.");
+alert("Para el uso del recurso se recomienda usar los navegadores de Chrome o Firefox.");
 
 
 const Bienvenida = () => {
