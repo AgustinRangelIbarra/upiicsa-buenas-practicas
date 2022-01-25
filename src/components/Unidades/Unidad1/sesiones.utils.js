@@ -56,7 +56,7 @@ export const sesiones = [
 				},
 			},
 		},
-		
+
 		sesion_aula: {
 			sesion_videoconferencia: {
 				temas: [
@@ -72,7 +72,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprendizaje 2: Análisis de las buenas prácticas",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten y consensuen el contenido de las infografías que elaboraron previamente de manera individual.",
@@ -96,7 +96,7 @@ export const sesiones = [
 					title: "1_2_Marcos_Trabajo",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
-						pdf: 'u12'
+					pdf: "u12",
 				},
 				sesion_linea: {
 					temas: [
@@ -161,7 +161,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprenizaje 4: Análisis de marcos de trabajo.",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia,éstaúltima deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten el contenido de las infografías que elaboraron previamente de manera individual. Llegando a obtener los siguientes conceptos.",
@@ -185,7 +185,7 @@ export const sesiones = [
 					title: "1_3_Calidad_Software.",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
-						pdf: 'u13'
+					pdf: "u13",
 				},
 				sesion_linea: {
 					temas: [
@@ -223,7 +223,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprendizaje 6: Análisis de calidad de software",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten el contenido de nube de palabras que elaboraron previamente de manera individual.",
