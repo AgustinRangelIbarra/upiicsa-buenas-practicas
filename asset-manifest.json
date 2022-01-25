@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.b622630b.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.b622630b.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.1c280c63.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.1c280c63.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
-    "static/js/2.1dd320ed.chunk.js": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js",
-    "static/js/2.1dd320ed.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js.map",
+    "static/js/2.86ed9a3c.chunk.js": "/upiicsa-buenas-practicas/static/js/2.86ed9a3c.chunk.js",
+    "static/js/2.86ed9a3c.chunk.js.map": "/upiicsa-buenas-practicas/static/js/2.86ed9a3c.chunk.js.map",
     "index.html": "/upiicsa-buenas-practicas/index.html",
     "static/css/2.a9506044.chunk.css.map": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css.map",
     "static/css/main.fdbd5e5f.chunk.css.map": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css.map",
-    "static/js/2.1dd320ed.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.1dd320ed.chunk.js.LICENSE.txt",
+    "static/js/2.86ed9a3c.chunk.js.LICENSE.txt": "/upiicsa-buenas-practicas/static/js/2.86ed9a3c.chunk.js.LICENSE.txt",
     "static/media/1_1_Buenas_Practicas.e4d423aa.pdf": "/upiicsa-buenas-practicas/static/media/1_1_Buenas_Practicas.e4d423aa.pdf",
     "static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf": "/upiicsa-buenas-practicas/static/media/1_2_Marcos_Trabajo.c4ed1cdf.pdf",
     "static/media/1_3_Calidad_Software.fc04530f.pdf": "/upiicsa-buenas-practicas/static/media/1_3_Calidad_Software.fc04530f.pdf",
@@ -54,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.525b22fa.js",
     "static/css/2.a9506044.chunk.css",
-    "static/js/2.1dd320ed.chunk.js",
+    "static/js/2.86ed9a3c.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.b622630b.chunk.js"
+    "static/js/main.1c280c63.chunk.js"
   ]
 }
