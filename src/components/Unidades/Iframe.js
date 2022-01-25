@@ -14,7 +14,8 @@ import unidad11 from "./../../assets/docs/1_1_Buenas_Practicas.pdf";
 import unidad12 from "./../../assets/docs/1_2_Marcos_Trabajo.pdf";
 import unidad13 from "./../../assets/docs/1_3_Calidad_Software.pdf";
 
-import unidad21 from "./../../assets/docs/2_1_Criterios_requeri.pdf";
+import unidad21 from "./../../assets/docs/2_Criterios_requerimientos.pdf";
+import unidad211 from "./../../assets/docs/2_revision_reque.pdf";
 import unidad22 from "./../../assets/docs/2_2_Planeacion_proyecto.pdf";
 import unidad23 from "./../../assets/docs/2_3_Criterios_Industria.pdf";
 
@@ -23,6 +24,9 @@ import unidad32 from "./../../assets/docs/3_2_Mejores_practicas_planeacion.pdf";
 import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseño_experiencias.pdf";
 
 import unidad41 from "./../../assets/docs/4_1_Modelo_prueba.pdf";
+import unidad42 from "./../../assets/docs/4_2_Elegir_estrategias.pdf"
+import unidad43 from "./../../assets/docs/4_3_Alcance_pruebas.pdf";
+import unidad44 from "./../../assets/docs/Unidad 4_4, 5, 6. costos-herramientas-versiones.pdf";
 
 const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
@@ -45,6 +49,10 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 
 		case "u21":
 			definitive = unidad21;
+			break;
+
+		case "u211":
+			definitive = unidad211;
 			break;
 
 		case "u22":
@@ -72,15 +80,15 @@ const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 			break;
 
 		case "u42":
-			definitive = test;
+			definitive = unidad42;
 			break;
 
 		case "u43":
-			definitive = test;
+			definitive = unidad43;
 			break;
 
 		case "u44":
-			definitive = test;
+			definitive = unidad44;
 			break;
 
 		default:

@@ -1,8 +1,11 @@
 import Contenidos from "./Contenido/Contenidos";
 import video_bienvenida from "../assets/videos/BuenasPracticas.mp4";
+alert("Para el uso del recurso se recomienda usar los navegadores de Chrome o Firefox.");
+
 
 const Bienvenida = () => {
 	return (
+		
 		<div className="mt-3">
 			<p className="text-center">Video de bienvenida. </p>
 			<br></br>

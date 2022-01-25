@@ -7,7 +7,7 @@ import { defaultLayoutPlugin } from "@react-pdf-viewer/default-layout"; // insta
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/default-layout/lib/styles/index.css";
 import { Worker } from "@react-pdf-viewer/core";
-import pdfFile from "../../../assets/docs/test.pdf";
+import pdfFile from "../../../assets/docs/Agenda_unidad_IV.pdf";
 // Pdf Viewer end
 
 import PlecaMapaActividaes from "../../../assets/plecas/5P_15-05/Mapa_Actividades.jpg";

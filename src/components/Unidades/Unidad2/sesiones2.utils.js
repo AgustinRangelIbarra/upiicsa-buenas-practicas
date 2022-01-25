@@ -65,6 +65,14 @@ export const sesiones = [
 		extra_clase: {
 			actividad_aprendizaje1: {
 				titulo: "Actividad de aprendizaje 9: Revisión de requerimientos.",
+				resource: {
+					iframe_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=19",
+					title: "2_1_1_Revision_Requerimientos",
+					script_src:
+						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
+					pdf: "u211",
+				},
 				sesion_linea: {
 					temas: [
 						{
