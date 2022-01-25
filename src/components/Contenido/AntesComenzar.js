@@ -16,10 +16,29 @@ const AntesComenzar = () => {
 			{/* <div>
 				<a href="">Metodología de estudio va a estar basasda en estudio de casos</a>
 			</div> */}
+			<div className="text-center mt-4">
+				<h5 className="blue_text">
+					¿Cuál es el contenido de la unidad de aprendizaje y las competencias que desarrollarás?{" "}
+				</h5>
+				<p>Da clic y navega por el mapa</p>
 
-			{/* <h4 className="blue_text my-4">
-				Consulta cada uno de los apartados, cualquier duda con gusto la aclararé en la sesión.
-			</h4> */}
+				<p>Cualquier duda exponla en la sesión. </p>
+			</div>
+
+			<iframe
+				src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6"
+				width="845"
+				height="633"
+				frameborder="0"
+				allowfullscreen="allowfullscreen"
+				title="Mapa Buenas prácticas de software"
+			></iframe>
+			<script
+				src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
+				charset="UTF-8"
+			></script>
+
+			<h4 className="blue_text text-center my-4">Consulta cada uno de los apartados.</h4>
 
 			<Tabs defaultActiveKey="metodologia" id="uncontrolled-tab-example" className="mb-3">
 				<Tab eventKey="metodologia" title="Metodología">
@@ -103,32 +122,11 @@ const AntesComenzar = () => {
 				<Tab eventKey="forma_de_trabajo" title="Forma de Trabajo">
 					<FormaTrabajo />
 				</Tab>
-				<Tab eventKey="contenido" title="Contenido del curso">
-					<div className="text-center">
-						<h5 className="blue_text">
-							¿Cuál es el contenido de la unidad de aprendizaje y las competencias que
-							desarrollarás?{" "}
-						</h5>
-						<p>Da clic y navega por el mapa</p>
+				{/* 				<Tab eventKey="contenido" title="Contenido del curso">
+					
 
-						<p>Cualquier duda exponla en la sesión. </p>
-					</div>
-
-					{/* <p>Cualquier duda plantéala en la sesión en línea.</p> */}
-
-					<iframe
-						src="https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=6"
-						width="845"
-						height="633"
-						frameborder="0"
-						allowfullscreen="allowfullscreen"
-						title="Mapa Buenas prácticas de software"
-					></iframe>
-					<script
-						src="https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js"
-						charset="UTF-8"
-					></script>
-				</Tab>
+					<p>Cualquier duda plantéala en la sesión en línea.</p>
+				</Tab> */}
 				<Tab eventKey="forma_de_evaluacion" title="Evaluación">
 					<p>
 						Durante el curso se evaluará: <br />
