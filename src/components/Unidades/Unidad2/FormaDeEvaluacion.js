@@ -11,8 +11,6 @@ const FormaDeEvaluacion = () => {
 				<img src={PlecaEval} alt="Unidad 2" className="pleca_de_contenido" />
 			</div>
 
-
-
 			<div className="container">
 				<h4 className="blue_text text-center">¿Qué se va a evaluar?</h4>
 				<p>
@@ -41,15 +39,13 @@ const FormaDeEvaluacion = () => {
 							</tr>
 							<tr>
 								<th scope="row">
-								Propuestas de buenas prácticas para la identificación de requerimientos del software. 
+									Propuestas de buenas prácticas para la identificación de requerimientos del
+									software.
 								</th>
-								<td>
-								Archivos con las propuestas de buenas prácticas del estudio de caso. 
-								</td>
+								<td>Archivos con las propuestas de buenas prácticas del estudio de caso.</td>
 								<td>80%</td>
 							</tr>
-							
-							
+
 							<tr>
 								<th scope="row"> </th>
 								<td colSpan="1"></td>
@@ -100,82 +96,62 @@ const FormaDeEvaluacion = () => {
 							<h6 className="blue_text">Criterios de contenido</h6>
 							<ul>
 								<li>
-								Contiene la propuesta de buenas prácticas de las tres etapas del estudio de caso <b>(8 puntos)</b>.
-								
-									<ul>
-										<li>En la etapa 1, hace la propuesta de los tres puntos solicitados. </li>
-									</ul>
-									<ul>
-										<li>En la etapa 2, requisita la tabla todos los requerimientos funcionales.  </li>
-									</ul>
-									<ul>
-										<li>En la etapa 3, muestra la planeación del proyecto con el control de cambios y versiones.   </li>
-									</ul>
+									Contiene la propuesta de buenas prácticas de las <b>tres etapas </b>del estudio de
+									caso <b>(8 puntos)</b>.<br />
+									<br />
+									Hace la propuesta de los tres puntos solicitados. <br></br>
+									Requisita en la tabla todos los requerimientos funcionales. <br></br>
+									Muestra la planeación del proyecto con el control de cambios y versiones.{" "}
+									<br></br>
 								</li>
-								<li>
-								Contiene la propuesta de buenas prácticas de las tres etapas del estudio de caso <b>(6 puntos)</b>.
+								<br />
 
-								<ul>
-									<li>
-									En la etapa 1, hace la propuesta de los dos puntos solicitados. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 2, requisita la tabla, de dos de los requerimientos funcionales. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 3, muestra la planeación del proyecto con el control de cambios. 
-									</li>
-								</ul>
-								</li>
 								<li>
-								Contiene la propuesta de buenas prácticas de las tres etapas del estudio de caso <b>(4 puntos)</b>.
-								<ul>
-									<li>
-									En la etapa 1 hace la propuesta de uno de los puntos solicitados. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 2 requisita la tabla de uno de los requerimientos funcionales. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 3 muestra la planeación del proyecto con el control de versiones. 
-									</li>
-								</ul>
+									Contiene la propuesta de buenas prácticas de las <b>tres etapas</b> del estudio de
+									caso <b>(6 puntos)</b>.<br />
+									Hace la propuesta de dos puntos solicitados.
+									<br />
+									Requisita en la tabla, dos de los requisitos funcionales.
+									<br />
+									Muestra la planeación del proyecto con el control de cambios.
 								</li>
+								<br />
 								<li>
-								Contiene la propuesta de buenas prácticas de las tres etapas del estudio de caso <b>(2 puntos)</b>.
-								<ul>
-									<li>
-									En la etapa 1 hace la propuestas parciales de los puntos solicitados. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 2 requisita parcialmente la tabla de los requerimientos funcionales. 
-									</li>
-								</ul>
-								<ul>
-									<li>
-									En la etapa 3 muestra parcialmente la planeación del proyecto. 
-									</li>
-								</ul>
+									Contiene la propuesta de buenas prácticas de las <b>tres etapas</b> del estudio de
+									caso <b>(4 puntos)</b>.
+									<ul>
+										<li> Hace la propuesta de uno de los puntos solicitados.</li>
+									</ul>
+									<ul>
+										<li>Requisita en la tabla uno de los requerimientos funcionales.</li>
+									</ul>
+									<ul>
+										<li>Muestra la planeación del proyecto con el control de versiones.</li>
+									</ul>
 								</li>
-								<li>No entrega el estudio de caso <b>(0 puntos)</b></li>
+								<br />
+
+								<li>
+									Contiene la propuesta de buenas prácticas de las <b>tres etapas</b> del estudio de
+									caso <b>(2 puntos)</b>.
+									<ul>
+										<li> Hace la propuesta parcial de los puntos solicitados.</li>
+									</ul>
+									<ul>
+										<li>Requisita parcialmente la tabla de los requerimientos funcionales.</li>
+									</ul>
+									<ul>
+										<li> Muestra parcialmente la planeación del proyecto.</li>
+									</ul>
+								</li>
+								<br />
+
+								<li>
+									No entrega el estudio de caso <b>(0 puntos)</b>
+								</li>
 							</ul>
 						</div>
 					</Tab>
-			
-
-				
-					
-				
 				</Tabs>
 			</div>
 
@@ -198,6 +174,6 @@ const FormaDeEvaluacion = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default FormaDeEvaluacion;

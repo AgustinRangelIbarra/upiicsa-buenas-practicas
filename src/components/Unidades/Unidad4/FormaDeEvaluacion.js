@@ -31,7 +31,7 @@ const FormaDeEvaluacion = () => {
 						</thead>
 						<tbody>
 							<tr>
-								<th scope="row">Participación en las sesiones</th>
+								<th scope="row">Participación en las sesiones.</th>
 								<td>Expresarse verbalmente durante la sesión. </td>
 								<td>20%</td>
 							</tr>

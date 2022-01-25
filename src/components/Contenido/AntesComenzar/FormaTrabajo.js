@@ -30,7 +30,7 @@ const FormaTrabajo = () => {
 							participación en las sesiones.
 						</li>
 						<li>Elaborar organizadores gráficos para la mejor comprensión de los temas.</li>
-						<li>Realiza la exposición de los temas indegados</li>
+						<li>Realiza la exposición de los temas indegados.</li>
 					</ul>
 				</p>
 			</div>

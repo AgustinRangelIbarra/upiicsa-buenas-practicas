@@ -72,7 +72,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprendizaje 2: Análisis de las buenas prácticas",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten y consensuen el contenido de las infografías que elaboraron previamente de manera individual.",
@@ -161,7 +161,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprenizaje 4: Análisis de marcos de trabajo.",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten el contenido de las infografías que elaboraron previamente de manera individual. Llegando a obtener los siguientes conceptos.",
@@ -223,7 +223,7 @@ export const sesiones = [
 			actividad_aprendizaje2: {
 				titulo: "Actividad de aprendizaje 6: Análisis de calidad de software",
 				parrafos: [
-					"En el aula presencial o mediante la videoconferencia, ésta última deberá ser grabada.",
+					"En el aula presencial o mediante la videoconferencia, esta última deberá ser grabada.",
 				],
 				instrucciones: [
 					"En equipo comenten el contenido de nube de palabras que elaboraron previamente de manera individual.",

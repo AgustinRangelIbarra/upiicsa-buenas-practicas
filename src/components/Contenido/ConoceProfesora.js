@@ -28,10 +28,9 @@ const ConoceProfesora = () => {
 			</div>
 			<div className="profesores mb-4">
 				<div className="container-prof">
-					<h5 className="py-2">Pilar Gómez Miranda</h5>
+					<h5 className="py-2">M. en C. Pilar Gómez Miranda</h5>
 
 					{/* <img src={ProfesoraPilar} height="300px" alt="Profesora Pilar Gomez" /> */}
-					<h5 className="py-1">M. en C. Informática</h5>
 
 					{/* <p className="descripcionProf">
 						Profesora investigadora de las academias de informática y de la sección de
@@ -44,10 +43,9 @@ const ConoceProfesora = () => {
 				</div>
 
 				<div className="container-prof">
-					<h5 className="py-2">Emmanuel González Rogel​</h5>
+					<h5 className="py-2">M. en C. Emmanuel González Rogel​</h5>
 
 					{/* <img src={ProfesorEmmanuel} height="300px" alt="Profesora Pilar Gomez" /> */}
-					<h5 className="py-1">M. en C. Informática</h5>
 
 					{/* <p className="descripcionProf">
 						Profesora investigadora de las academias de informática y de la sección de

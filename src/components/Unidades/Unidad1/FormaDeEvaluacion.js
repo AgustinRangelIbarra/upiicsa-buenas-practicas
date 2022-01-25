@@ -38,7 +38,7 @@ const FormaDeEvaluacion = () => {
 							</tr>
 							<tr>
 								<th scope="row">
-									Indagación, consulta y análisisde información. Elaboración de organizadores
+									Indagación, consulta y análisis de información. Elaboración de organizadores
 									gráficos
 								</th>
 								<td>
@@ -110,7 +110,7 @@ const FormaDeEvaluacion = () => {
 							<h6 className="blue_text">Criterios de contenido</h6>
 							<ul>
 								<li>
-									Contine los conceptos solicitados y están organizados mostrando las descripciones
+									Contiene los conceptos solicitados y están organizados mostrando las descripciones
 									y relación del tema formando ideas claras del tema. <b>(4 puntos)</b>.
 								</li>
 								<li>
