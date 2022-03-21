@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.bd6d2ceb.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.bd6d2ceb.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.6678f34a.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.6678f34a.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
@@ -19,12 +19,12 @@
     "static/media/2_3_Criterios_Industria.1d3d2189.pdf": "/upiicsa-buenas-practicas/static/media/2_3_Criterios_Industria.1d3d2189.pdf",
     "static/media/2_Criterios_requerimientos.45abec01.pdf": "/upiicsa-buenas-practicas/static/media/2_Criterios_requerimientos.45abec01.pdf",
     "static/media/2_revision_reque.5e63065d.pdf": "/upiicsa-buenas-practicas/static/media/2_revision_reque.5e63065d.pdf",
-    "static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf": "/upiicsa-buenas-practicas/static/media/3_1_Mejores_practicas_diseno.4c68ae6e.pdf",
-    "static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf": "/upiicsa-buenas-practicas/static/media/3_2_Mejores_practicas_planeacion.672ff8a2.pdf",
-    "static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf": "/upiicsa-buenas-practicas/static/media/3_3_Mejores_practicas_diseño_experiencias.bcb9ebb6.pdf",
-    "static/media/4_1_Modelo_prueba.c4ae6b65.pdf": "/upiicsa-buenas-practicas/static/media/4_1_Modelo_prueba.c4ae6b65.pdf",
-    "static/media/4_2_Elegir_estrategias.af0058e9.pdf": "/upiicsa-buenas-practicas/static/media/4_2_Elegir_estrategias.af0058e9.pdf",
-    "static/media/4_3_Alcance_pruebas.989d842f.pdf": "/upiicsa-buenas-practicas/static/media/4_3_Alcance_pruebas.989d842f.pdf",
+    "static/media/3_1_Mejores_practicas_diseno.6669be0e.pdf": "/upiicsa-buenas-practicas/static/media/3_1_Mejores_practicas_diseno.6669be0e.pdf",
+    "static/media/3_2_Mejores_practicas_planeacion.9418f25d.pdf": "/upiicsa-buenas-practicas/static/media/3_2_Mejores_practicas_planeacion.9418f25d.pdf",
+    "static/media/3_3_Mejores_practicas_diseño_experiencias.b0f1724c.pdf": "/upiicsa-buenas-practicas/static/media/3_3_Mejores_practicas_diseño_experiencias.b0f1724c.pdf",
+    "static/media/4_1_Modelo_prueba.299c8a03.pdf": "/upiicsa-buenas-practicas/static/media/4_1_Modelo_prueba.299c8a03.pdf",
+    "static/media/4_2_Elegir_estrategias.b788a52b.pdf": "/upiicsa-buenas-practicas/static/media/4_2_Elegir_estrategias.b788a52b.pdf",
+    "static/media/4_3_Alcance_pruebas.b2ed3016.pdf": "/upiicsa-buenas-practicas/static/media/4_3_Alcance_pruebas.b2ed3016.pdf",
     "static/media/Agenda_Unidad_II.b940df90.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_II.b940df90.pdf",
     "static/media/Agenda_Unidad_III.3525e934.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_Unidad_III.3525e934.pdf",
     "static/media/Agenda_unidad_I.b45077fc.pdf": "/upiicsa-buenas-practicas/static/media/Agenda_unidad_I.b45077fc.pdf",
@@ -44,7 +44,7 @@
     "static/media/Pleca_BPS_U4_3.8dcff548.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BPS_U4_3.8dcff548.jpg",
     "static/media/Pleca_BP_NecesitasS.b9f379f6.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_BP_NecesitasS.b9f379f6.jpg",
     "static/media/Pleca_MPS_U3_4.fa91cc10.jpg": "/upiicsa-buenas-practicas/static/media/Pleca_MPS_U3_4.fa91cc10.jpg",
-    "static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.0e177b20.pdf": "/upiicsa-buenas-practicas/static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.0e177b20.pdf",
+    "static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.ddde3ad5.pdf": "/upiicsa-buenas-practicas/static/media/Unidad 4_4, 5, 6. costos-herramientas-versiones.ddde3ad5.pdf",
     "static/media/test.9bd501a2.pdf": "/upiicsa-buenas-practicas/static/media/test.9bd501a2.pdf",
     "static/media/u1_bibliografia.8bfe8678.mp4": "/upiicsa-buenas-practicas/static/media/u1_bibliografia.8bfe8678.mp4",
     "static/media/u2_bibliografia.d942aa7a.mp4": "/upiicsa-buenas-practicas/static/media/u2_bibliografia.d942aa7a.mp4",
@@ -56,6 +56,6 @@
     "static/css/2.a9506044.chunk.css",
     "static/js/2.1b2432ca.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.bd6d2ceb.chunk.js"
+    "static/js/main.6678f34a.chunk.js"
   ]
 }
