@@ -26,7 +26,7 @@ import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseño_experien
 import unidad41 from "./../../assets/docs/4_1_Modelo_prueba.pdf";
 import unidad42 from "./../../assets/docs/4_2_Elegir_estrategias.pdf"
 import unidad43 from "./../../assets/docs/4_3_Alcance_pruebas.pdf";
-import unidad44 from "./../../assets/docs/Unidad 4_4, 5, 6. costos-herramientas-versiones.pdf";
+import unidad44 from "./../../assets/docs/4_4_Costos_Vers_actividad29.pdf";
 
 const Iframe = ({ btnTiile, iSrc, title, sSrc, pdf }) => {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
