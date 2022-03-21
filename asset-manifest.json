@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/upiicsa-buenas-practicas/static/css/main.fdbd5e5f.chunk.css",
-    "main.js": "/upiicsa-buenas-practicas/static/js/main.b6042145.chunk.js",
-    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.b6042145.chunk.js.map",
+    "main.js": "/upiicsa-buenas-practicas/static/js/main.bd6d2ceb.chunk.js",
+    "main.js.map": "/upiicsa-buenas-practicas/static/js/main.bd6d2ceb.chunk.js.map",
     "runtime-main.js": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js",
     "runtime-main.js.map": "/upiicsa-buenas-practicas/static/js/runtime-main.525b22fa.js.map",
     "static/css/2.a9506044.chunk.css": "/upiicsa-buenas-practicas/static/css/2.a9506044.chunk.css",
@@ -56,6 +56,6 @@
     "static/css/2.a9506044.chunk.css",
     "static/js/2.1b2432ca.chunk.js",
     "static/css/main.fdbd5e5f.chunk.css",
-    "static/js/main.b6042145.chunk.js"
+    "static/js/main.bd6d2ceb.chunk.js"
   ]
 }
