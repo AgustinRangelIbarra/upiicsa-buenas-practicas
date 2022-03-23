@@ -110,7 +110,7 @@ export const sesiones = [
 				resource: {
 					iframe_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-admin/admin-ajax.php?action=h5p_embed&id=26",
-					title: "3_3_Mejores_Practicas_Diseño_Experiencia",
+					title: "3_3_Mejores_Practicas_Diseno_Experiencia",
 					script_src:
 						"https://h5p6.tecnologia-educativa.com.mx/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js",
 					pdf: "u33",

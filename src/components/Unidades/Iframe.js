@@ -21,7 +21,7 @@ import unidad23 from "./../../assets/docs/2_3_Criterios_Industria.pdf";
 
 import unidad31 from "./../../assets/docs/3_1_Mejores_practicas_diseno.pdf";
 import unidad32 from "./../../assets/docs/3_2_Mejores_practicas_planeacion.pdf";
-import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseño_experiencias.pdf";
+import unidad33 from "./../../assets/docs/3_3_Mejores_practicas_diseno_experiencias.pdf";
 
 import unidad41 from "./../../assets/docs/4_1_Modelo_prueba.pdf";
 import unidad42 from "./../../assets/docs/4_2_Elegir_estrategias.pdf"
